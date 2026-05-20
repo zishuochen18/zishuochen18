@@ -1,0 +1,27 @@
+{
+  "_comment": "复制本文件为 config.local.json，填入真实业务参数。config.local.json 已被 .gitignore 忽略，不会进入版本库。",
+
+  "crm": {
+    "home_url": "https://<your-crm-domain>/#/"
+  },
+
+  "channel": {
+    "channel_no": "<parent_channel_number>",
+    "channel_level": "A",
+    "business_line": "<business_line_name>",
+    "sub_channel_id": "<sub_channel_id>",
+    "channel_rating": "A",
+    "operator_name": "<operator_name>",
+    "default_storage": "<default_storage_type>"
+  },
+
+  "promotion": {
+    "page_type": "H5",
+    "page_config": "<page_config_option>",
+    "link_domain": "<custom_link_domain>",
+    "product_id": "<product_id>",
+    "landing_page_id": "<landing_page_id>",
+    "wechat_account": "<wechat_official_account_name>",
+    "sms_signature": "<sms_signature>"
+  }
+}
