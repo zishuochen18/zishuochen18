@@ -14,6 +14,8 @@
 # Local config (contains real business parameters — never upload)
 config.local.json
 config.local.*
+feishu_config.local.json
+auth_state.json
 secrets/
 
 # Python
@@ -36,6 +38,9 @@ private/
 *.7z
 *.rar
 *.log
+
+# Generated QR codes
+*.jpg
 
 # OS / editor
 .DS_Store

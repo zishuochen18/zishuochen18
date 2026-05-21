@@ -1,23 +1,27 @@
 """
-CRM 自动创建渠道 + 推广 工具
+CRM 自动创建渠道 + 推广 + 二维码 工具
 
 用法：
 1. 安装依赖：
-   pip install playwright
+   pip install playwright requests
    playwright install chromium
 
 2. 复制配置模板：
    cp config.example.json config.local.json
    # 然后编辑 config.local.json，填入你公司 CRM 的真实业务参数
 
-3. 运行：
+3. 运行（交互式）：
    python crm_create_channel.py
 
-脚本将自动完成两段操作：
+4. 运行（飞书多维表格轮询）：
+   python feishu_bitable_worker.py
+
+脚本将自动完成三段操作：
 - 创建渠道
 - 创建推广（推广名称复用渠道名称）
+- 创建推广二维码（在工作台生成短链并下载二维码）
 
-最终输出生成的推广链接。
+最终输出推广链接和二维码文件。
 
 注意：
 - 真实业务参数请仅放在 config.local.json，该文件已被 .gitignore 忽略，不会进入版本库
@@ -25,6 +29,7 @@ CRM 自动创建渠道 + 推广 工具
 """
 
 import json
+import os
 import time
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -34,6 +39,8 @@ from playwright.sync_api import sync_playwright
 
 CONFIG_FILE = Path(__file__).parent / "config.local.json"
 EXAMPLE_FILE = Path(__file__).parent / "config.example.json"
+DOWNLOAD_DIR = os.path.dirname(os.path.abspath(__file__))
+AUTH_STATE_FILE = os.path.join(DOWNLOAD_DIR, "auth_state.json")
 
 
 def load_config() -> dict:
@@ -65,7 +72,7 @@ def fill_filterable_dropdown(page, label_text: str, value: str, timeout: int = 1
     time.sleep(0.8)
 
     page.keyboard.type(value, delay=50)
-    time.sleep(1.0)
+    time.sleep(2.0)
 
     panel_selectors = [
         ".el-select-dropdown:visible",
@@ -220,7 +227,7 @@ def select_dropdown_option(page, label_text: str, option_text: str, timeout: int
 def click_button_with_text(page, text: str, timeout: int = 10000):
     """点击包含指定文字的按钮，兼容 Element UI 的"确 定"风格（中文按钮自动加空格）"""
     text_variants = [text]
-    if len(text) >= 2:
+    if len(text) == 2:
         text_variants.append(" ".join(text))
 
     for txt in text_variants:
@@ -463,7 +470,8 @@ def create_promotion(page, channel_name: str, cfg: dict) -> str:
     click_button_with_text(page, "确定")
     time.sleep(1)
 
-    # 8. 选择落地页
+    # 8. 选择落地页（远程搜索需要额外等待）
+    time.sleep(2)
     fill_filterable_dropdown(page, "选择落地页", pr["landing_page_id"])
     time.sleep(0.5)
 
@@ -517,42 +525,251 @@ def create_promotion(page, channel_name: str, cfg: dict) -> str:
     return promo_link
 
 
-# ============ 主流程 ============
+# ============ 业务流程：创建推广二维码 ============
 
-def run(channel_name: str, cfg: dict):
+def create_qrcode(page, channel_name: str, promo_link: str, cfg: dict) -> str:
+    """
+    第三部分：【创建推广二维码】
+    在工作台创建短链并下载二维码。返回二维码文件路径。
+    """
+    print("\n" + "=" * 50)
+    print("  开始执行【创建推广二维码】")
+    print("=" * 50)
+
+    qr = cfg["qrcode"]
+
+    # 1. 打开工作台
+    print("\n>>> 第一步：打开工作台")
+    page.bring_to_front()
+    page.goto(qr["workbench_url"])
+    page.wait_for_load_state("networkidle")
+    time.sleep(3)
+
+    # 2. 技术设置 → 短链管理
+    print(">>> 第二步：点击【技术设置】→【短链管理】")
+    tech_menu = page.get_by_text("技术设置").filter(visible=True)
+    if tech_menu.count() == 0:
+        raise RuntimeError("找不到【技术设置】菜单")
+    tech_menu.first.click()
+    time.sleep(1)
+    page.get_by_text("短链管理").filter(visible=True).first.click()
+    time.sleep(3)
+    page.wait_for_load_state("networkidle")
+
+    # 3. 新建短链
+    print(">>> 第三步：点击【新建短链】")
+    click_button_with_text(page, "新建短链")
+    time.sleep(1.5)
+
+    # 4. 填写弹窗
+    print(">>> 第四步：填写短链信息")
+    time.sleep(1)
+    dialog = page.locator("[role='dialog']").filter(visible=True).last
+    if dialog.count() == 0:
+        dialog = page.locator(".el-dialog:visible").last
+
+    # 源网址
+    try:
+        inp = dialog.locator("input:visible, textarea:visible").first
+        if inp.count() > 0:
+            inp.fill(promo_link)
+    except Exception:
+        fill_input_by_label(page, "源网址", promo_link)
+    time.sleep(0.5)
+
+    fill_input_by_label(page, "短链标题", channel_name)
+    time.sleep(0.5)
+    select_dropdown_option(page, "短链分组", qr["short_link_group"])
+    time.sleep(0.5)
+    select_dropdown_option(page, "选择域名", qr["short_link_domain"])
+    time.sleep(0.5)
+
+    # 确 定
+    dialog_ok = dialog.locator("button:has-text('确'), .el-button:has-text('确')").filter(visible=True).last
+    if dialog_ok.count() > 0:
+        dialog_ok.click(timeout=10000)
+    else:
+        click_button_with_text(page, "确定")
+    time.sleep(2)
+
+    # 处理成功弹窗
+    try:
+        success_dialog = page.locator(".el-message-box:visible, .el-dialog:visible").filter(
+            has_text="成功"
+        ).last
+        if success_dialog.count() > 0:
+            ok_btn = success_dialog.locator(
+                "button:has-text('确'), .el-button:has-text('确')"
+            ).filter(visible=True).last
+            if ok_btn.count() > 0:
+                ok_btn.click(timeout=5000)
+        else:
+            try:
+                click_button_with_text(page, "确定")
+            except Exception:
+                pass
+    except Exception:
+        pass
+    time.sleep(2)
+
+    # 5. 切换到分组 → 找到行 → 下载二维码
+    print(">>> 第五步：点击二维码图标 → 下载二维码")
+
+    # 点击左侧分组
+    try:
+        group_node = page.get_by_text(qr["short_link_group"], exact=True).filter(visible=True).first
+        if group_node.count() == 0:
+            group_node = page.locator(
+                f".el-tree :text('{qr['short_link_group']}'), .el-menu :text('{qr['short_link_group']}')"
+            ).filter(visible=True).first
+        group_node.click(timeout=5000)
+    except Exception:
+        pass
+    time.sleep(2)
+    page.wait_for_load_state("networkidle")
+
+    # 找到行
+    row = page.locator(f"tr:has-text('{channel_name}')").filter(visible=True).first
+    if row.count() == 0:
+        page.reload()
+        page.wait_for_load_state("networkidle")
+        time.sleep(2)
+        row = page.locator(f"tr:has-text('{channel_name}')").filter(visible=True).first
+
+    # 行内找二维码图标
+    qr_icon_clicked = False
+    for sel in [
+        "[aria-label*='二维码']", "[title*='二维码']",
+        ".qr-code, .qrcode, .icon-qrcode",
+        "svg[class*='qr']", "img[src*='qr']", "i[class*='qr']",
+    ]:
+        try:
+            icon = row.locator(sel).filter(visible=True).first
+            if icon.count() > 0:
+                icon.click(timeout=5000)
+                qr_icon_clicked = True
+                break
+        except Exception:
+            continue
+    if not qr_icon_clicked:
+        raise RuntimeError("找不到二维码图标")
+    time.sleep(1)
+
+    # 下载二维码
+    qr_file = ""
+    try:
+        with page.expect_download(timeout=15000) as download_info:
+            click_button_with_text(page, "下载二维码")
+        download = download_info.value
+        save_name = channel_name.replace("/", "_").replace("\\", "_") + ".jpg"
+        save_path = os.path.join(DOWNLOAD_DIR, save_name)
+        download.save_as(save_path)
+        qr_file = save_path
+        print(f">>>   二维码已保存：{save_path}")
+    except Exception as e:
+        print(f">>>   ⚠️ 下载捕获失败（{e}）")
+
+    print("\n>>> 【创建推广二维码】完成！")
+    return qr_file
+
+
+# ============ 登录状态管理 ============
+
+def ensure_login(browser, cfg: dict = None):
+    """
+    确保登录状态有效，返回 (context, page)。
+    如果 auth_state.json 存在且有效，直接复用；否则等待扫码登录。
+    """
+    if cfg is None:
+        cfg = load_config()
     home_url = cfg["crm"]["home_url"]
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context()
-        page = context.new_page()
+    if os.path.exists(AUTH_STATE_FILE):
+        print(">>> 检测到已保存的登录状态，尝试复用...")
+        context = browser.new_context(
+            accept_downloads=True, storage_state=AUTH_STATE_FILE
+        )
+    else:
+        context = browser.new_context(accept_downloads=True)
 
-        page.goto(home_url)
-        page.wait_for_load_state("networkidle")
+    page = context.new_page()
+    page.goto(home_url)
+    page.wait_for_load_state("networkidle")
+    time.sleep(3)
 
-        input(">>> 第 1 步：请完成扫码登录，登录成功后按回车继续...")
+    def _on_crm_page(url: str) -> bool:
+        return url.startswith(home_url.split("#")[0]) and "/login" not in url
 
-        print(">>> 正在跳转到 CRM 页面...")
+    need_login = not _on_crm_page(page.url)
+    if need_login:
+        print(">>> 登录状态已过期或不存在，需要扫码登录")
+        input(">>> 请完成扫码登录，登录成功后按回车继续...")
         page.goto(home_url)
         page.wait_for_load_state("networkidle")
         time.sleep(3)
-        print(f">>> 当前页面 URL：{page.url}")
+        if not _on_crm_page(page.url):
+            raise RuntimeError(f"跳转失败（URL={page.url}），请确认已登录")
+        context.storage_state(path=AUTH_STATE_FILE)
+        print(f">>> 登录状态已保存到 {AUTH_STATE_FILE}")
+    else:
+        print(f">>> 登录状态有效，已进入 CRM 页面")
 
-        # 鉴权后域名应该已经切到 CRM。这里做一个宽松校验
-        if "http" not in page.url:
-            print("❌ 当前页面 URL 异常，请确认已登录")
-            input("按回车关闭...")
-            browser.close()
-            return
+    return context, page
+
+
+# ============ 主流程 ============
+
+def run_single(channel_name: str, browser=None, context=None, page=None, cfg: dict = None):
+    """
+    纯执行逻辑（无 input 阻塞），供 worker 或外部调用。
+    返回 (promo_link, qr_file_path)。
+    """
+    if cfg is None:
+        cfg = load_config()
+
+    own_browser = browser is None
+    pw_context = None
+
+    try:
+        if own_browser:
+            pw_context = sync_playwright().start()
+            browser = pw_context.chromium.launch(headless=False)
+            context, page = ensure_login(browser, cfg)
 
         create_channel(page, channel_name, cfg)
         promo_link = create_promotion(page, channel_name, cfg)
+
+        qr_file = ""
+        if promo_link:
+            qr_file = create_qrcode(page, channel_name, promo_link, cfg)
+        else:
+            print("\n⚠️ 未获取到推广链接，跳过二维码创建")
+
+        return promo_link, qr_file
+    finally:
+        if own_browser:
+            browser.close()
+            if pw_context:
+                pw_context.stop()
+
+
+def run_interactive(channel_name: str, cfg: dict):
+    """交互式入口（手动运行时用）"""
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        context, page = ensure_login(browser, cfg)
+
+        promo_link, qr_file = run_single(
+            channel_name, browser=browser, context=context, page=page, cfg=cfg
+        )
 
         print("\n" + "=" * 50)
         print(">>> 所有操作完成！")
         print(f">>> 渠道名称：{channel_name}")
         if promo_link:
             print(f">>> 推广链接：{promo_link}")
+        if qr_file:
+            print(f">>> 二维码文件：{qr_file}")
         print("=" * 50)
         input(">>> 按回车关闭浏览器...")
         browser.close()
@@ -560,11 +777,11 @@ def run(channel_name: str, cfg: dict):
 
 if __name__ == "__main__":
     print("=" * 50)
-    print("  CRM 自动创建渠道 + 推广 工具")
+    print("  CRM 自动创建渠道 + 推广 + 二维码 工具")
     print("=" * 50)
     cfg = load_config()
     name = input("请输入【渠道名称】: ").strip()
     if not name:
         print("渠道名称不能为空！")
     else:
-        run(name, cfg)
+        run_interactive(name, cfg)

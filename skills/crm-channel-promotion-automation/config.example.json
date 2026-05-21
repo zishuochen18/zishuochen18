@@ -23,5 +23,11 @@
     "landing_page_id": "<landing_page_id>",
     "wechat_account": "<wechat_official_account_name>",
     "sms_signature": "<sms_signature>"
+  },
+
+  "qrcode": {
+    "workbench_url": "https://<your-workbench-domain>/#/?url=https%3A%2F%2F<login-domain>",
+    "short_link_group": "<short_link_group_name>",
+    "short_link_domain": "<short_link_domain>"
   }
 }

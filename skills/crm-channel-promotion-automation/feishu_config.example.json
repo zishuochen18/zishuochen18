@@ -1,0 +1,15 @@
+{
+  "_comment": "复制本文件为 feishu_config.local.json，填入飞书应用真实凭证。该文件已被 .gitignore 忽略。",
+
+  "app_id": "<your-feishu-app-id>",
+  "app_secret": "<your-feishu-app-secret>",
+  "app_token": "<bitable-real-app-token>",
+  "table_id": "<bitable-table-id>",
+  "poll_interval_seconds": 30,
+  "field_names": {
+    "channel_name": "渠道名称",
+    "promo_link": "推广链接",
+    "qr_image": "二维码图片",
+    "status": "执行状态"
+  }
+}
