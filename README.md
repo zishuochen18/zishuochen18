@@ -8,7 +8,8 @@
 
 ```
 skills/
-  crm-channel-promotion-automation/   # CRM 渠道 + 推广自动化（Playwright）
+  crm-channel-promotion-automation/   # CRM 渠道 + 推广自动化（Playwright + 飞书集成）
+  tmk-weekly-report-generator/        # TMK 做工周报自动生成（pandas + openpyxl）
 ```
 
 ## 使用规范
