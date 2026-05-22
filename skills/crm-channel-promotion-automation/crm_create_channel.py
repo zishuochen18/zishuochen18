@@ -736,6 +736,11 @@ def run_single(channel_name: str, browser=None, context=None, page=None, cfg: di
             browser = pw_context.chromium.launch(headless=False)
             context, page = ensure_login(browser, cfg)
 
+        # 每次执行前先回到 CRM 主页（上一次任务可能停留在工作台或其他页面）
+        page.goto(cfg["crm"]["home_url"])
+        page.wait_for_load_state("networkidle")
+        time.sleep(2)
+
         create_channel(page, channel_name, cfg)
         promo_link = create_promotion(page, channel_name, cfg)
 
