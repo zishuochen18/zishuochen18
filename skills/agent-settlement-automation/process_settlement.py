@@ -158,10 +158,13 @@ def find_sheet_by_keyword(wb, keyword: str):
 
 
 def step3_build_settlement(df_sales: pd.DataFrame, df_refunds: pd.DataFrame,
-                            agent_name: str, last_month_info: tuple) -> Path:
+                            agent_name: str, last_month_info: tuple, cps_rate: float = 0.35) -> Path:
     """
     Step 3: 生成结算表
     复制模板 → 填入成交明细 → 填入渠道汇总 → 填入退费明细 → 填入CPS服务费表
+
+    Args:
+        cps_rate: CPS 费率，默认 0.35
     """
     ym, m_num, m_display, period = last_month_info
 
@@ -316,7 +319,7 @@ def step3_build_settlement(df_sales: pd.DataFrame, df_refunds: pd.DataFrame,
             cps_sheet.cell(r, 6).value = amount  # 總訂單金額
             cps_sheet.cell(r, 7).value = refund_amt  # 退款金額
             cps_sheet.cell(r, 8).value = f"=F{r}-G{r}"  # 有效订单金额
-            cps_sheet.cell(r, 9).value = 0.35  # CPS資金率
+            cps_sheet.cell(r, 9).value = cps_rate  # CPS資金率
             cps_sheet.cell(r, 10).value = f"=H{r}*I{r}"  # CPS服务费(元)
             cps_sheet.cell(r, 11).value = 0.87581  # 汇率（占位，3.5 步骤会更新）
             cps_sheet.cell(r, 12).value = f"=J{r}/K{r}"  # CPS服务费(港幣)
@@ -508,11 +511,15 @@ def step3_5_fetch_exchange_rate(out_path: Path, last_month_info: tuple) -> None:
 
 
 def main():
-    # 从命令行参数读取代理名称，如果没有提供则默认为 "Amy"
+    # 从命令行参数读取代理名称和 CPS 率
+    # 用法：python process_settlement.py [代理名称] [CPS率]
+    # 示例：python process_settlement.py 船长 0.4
     agent_name = sys.argv[1] if len(sys.argv) > 1 else "Amy"
+    cps_rate = float(sys.argv[2]) if len(sys.argv) > 2 else 0.35
+
     last_month_info = get_last_month_info()
     ym, m_num, m_display, period = last_month_info
-    print(f"\n[配置] 代理: {agent_name}, 结算月份: {ym} ({m_display})\n")
+    print(f"\n[配置] 代理: {agent_name}, CPS率: {cps_rate}, 结算月份: {ym} ({m_display})\n")
 
     df_sales = step1_extract_agent_sales(agent_name)
     df_refunds = step2_filter_refund_orders(agent_name, ym)
@@ -521,7 +528,7 @@ def main():
         print("[错误] 销售明细为空，终止")
         return
 
-    out_path = step3_build_settlement(df_sales, df_refunds, agent_name, last_month_info)
+    out_path = step3_build_settlement(df_sales, df_refunds, agent_name, last_month_info, cps_rate)
     step3_5_fetch_exchange_rate(out_path, last_month_info)
     print(f"\n[完成] 输出: {out_path}")
 

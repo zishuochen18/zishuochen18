@@ -24,14 +24,21 @@
 ## 使用方法
 
 ```bash
-# 为指定代理生成结算表
+# 为指定代理生成结算表（使用默认 CPS 率 0.35）
 python process_settlement.py 船长
 python process_settlement.py maggie
-python process_settlement.py Amy
 
-# 不指定代理名称，默认为 Amy
+# 指定 CPS 率
+python process_settlement.py 船长 0.4
+python process_settlement.py maggie 0.3
+
+# 不指定参数，默认为 Amy，CPS 率 0.35
 python process_settlement.py
 ```
+
+**参数说明**：
+- 第一个参数：代理名称（默认 "Amy"）
+- 第二个参数：CPS 率（默认 0.35）
 
 脚本会自动：
 1. 读取 `sample/` 目录下的销售明细表和订单宽表
