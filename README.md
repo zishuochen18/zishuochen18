@@ -12,6 +12,7 @@ skills/
   tmk-weekly-report-generator/        # TMK 做工周报自动生成（pandas + openpyxl）
   hk-mo-unclassified-student-email/   # 港澳未分班学员明细筛选 + 邮件同步教务（Playwright + pandas）
   hk-mo-coin-grant-oa/                # 港澳渠道成交用户豌豆币 OA 申请自动化（Playwright + Landray OA）
+  agent-settlement-automation/        # 代理对账结算自动化（pandas + openpyxl + Playwright 汇率抓取）
 ```
 
 ## 使用规范
