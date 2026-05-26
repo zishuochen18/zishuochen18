@@ -11,6 +11,7 @@ skills/
   crm-channel-promotion-automation/   # CRM 渠道 + 推广自动化（Playwright + 飞书集成）
   tmk-weekly-report-generator/        # TMK 做工周报自动生成（pandas + openpyxl）
   hk-mo-unclassified-student-email/   # 港澳未分班学员明细筛选 + 邮件同步教务（Playwright + pandas）
+  hk-mo-coin-grant-oa/                # 港澳渠道成交用户豌豆币 OA 申请自动化（Playwright + Landray OA）
 ```
 
 ## 使用规范
