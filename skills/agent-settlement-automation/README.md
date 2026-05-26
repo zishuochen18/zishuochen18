@@ -24,6 +24,12 @@
 ## 使用方法
 
 ```bash
+# 为指定代理生成结算表
+python process_settlement.py 船长
+python process_settlement.py maggie
+python process_settlement.py Amy
+
+# 不指定代理名称，默认为 Amy
 python process_settlement.py
 ```
 

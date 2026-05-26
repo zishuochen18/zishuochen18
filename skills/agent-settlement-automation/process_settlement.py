@@ -508,7 +508,8 @@ def step3_5_fetch_exchange_rate(out_path: Path, last_month_info: tuple) -> None:
 
 
 def main():
-    agent_name = "Amy"
+    # 从命令行参数读取代理名称，如果没有提供则默认为 "Amy"
+    agent_name = sys.argv[1] if len(sys.argv) > 1 else "Amy"
     last_month_info = get_last_month_info()
     ym, m_num, m_display, period = last_month_info
     print(f"\n[配置] 代理: {agent_name}, 结算月份: {ym} ({m_display})\n")
