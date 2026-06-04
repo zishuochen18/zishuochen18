@@ -1,0 +1,49 @@
+# 敏感配置
+feishu_config.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 数据文件（sample 目录保留结构，但忽略大文件）
+*/sample/*.xlsx
+*/sample/*.xls
+*/sample/*.csv
+!*/sample/.gitkeep
+
+# 输出文件
+*/output/*.xlsx
+*/output/*.xls
+*/output/*.html
+!*/output/.gitkeep
+output/*.html
+runs.log
+
+# 大型 JSON 文件
+*.json
+!feishu_config.example.json
+!package.json
+!tsconfig.json
+
+# 临时文件
+*.tmp
+*.bak
+~$*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 其他临时目录
+smartbi-data-cli-internal-*/
+temp/
+tmp/

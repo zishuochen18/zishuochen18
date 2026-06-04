@@ -1,0 +1,6 @@
+{
+  "app_id": "<your-feishu-app-id>",
+  "app_secret": "<your-feishu-app-secret>",
+  "folder_name": "港澳地区周报归档",
+  "doc_title_format": "港澳商务周报-{date}"
+}
