@@ -1,0 +1,67 @@
+{
+  "task": "tmk_dnd_summary",
+  "report_id": "I2c928087019956c056c0048101995c65cfb234e2",
+  "report_path": "海外直播业务线/海外产运/TMK/执行监控/海外TMK做工勿扰情况汇总",
+  "date_window": null,
+  "resolved_date_window": null,
+  "extra_params": [],
+  "filter_overrides": [
+    {
+      "key": "一级渠道",
+      "value": "海外港澳商务",
+      "displayValue": "海外港澳商务"
+    },
+    {
+      "key": "CC跟进二级渠道",
+      "value": "KOLHK-思维主投",
+      "displayValue": "KOLHK-思维主投"
+    }
+  ],
+  "out_dir": "C:\\Users\\chenzishuo\\Desktop\\新建文件夹 (2)\\周报内容\\TMK周报\\sample",
+  "run_id": "20260610-172030",
+  "status": "exported",
+  "output": "C:\\Users\\chenzishuo\\Desktop\\新建文件夹 (2)\\周报内容\\TMK周报\\sample\\海外TMK做工勿扰情况汇总.xlsx",
+  "default_filename": "海外TMK做工勿扰情况汇总.xlsx",
+  "bytes": 17318,
+  "sheets": [
+    "Sheet1"
+  ],
+  "assertions": null,
+  "timings": {
+    "total_sec": 4.726,
+    "steps": [
+      {
+        "name": "create_client",
+        "duration_sec": 0.051
+      },
+      {
+        "name": "login",
+        "duration_sec": 0.442
+      },
+      {
+        "name": "open_report_context",
+        "duration_sec": 0.406
+      },
+      {
+        "name": "prepare_params",
+        "duration_sec": 0.0
+      },
+      {
+        "name": "export_spreadsheet_report",
+        "duration_sec": 3.821
+      },
+      {
+        "name": "write_output",
+        "duration_sec": 0.002
+      },
+      {
+        "name": "validate_xlsx",
+        "duration_sec": 0.003
+      },
+      {
+        "name": "validate_assertions",
+        "duration_sec": 0.0
+      }
+    ]
+  }
+}

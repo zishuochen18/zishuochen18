@@ -1,0 +1,4927 @@
+{
+  "schema_version": "smartbi-report-id-registry-v1",
+  "generated_at": "2026-05-26T19:50:27",
+  "source": {
+    "root_paths": [
+      "分析报表/海外直播业务线",
+      "分析报表/平台业务线"
+    ],
+    "resolved_roots": [
+      {
+        "requested_path": "分析报表/海外直播业务线",
+        "resolved_path": "分析报表/海外直播业务线",
+        "resolved": [
+          {
+            "id": "PUBLIC_ANALYSIS",
+            "alias": "分析报表",
+            "name": "PUBLIC_ANALYSIS",
+            "type": "DEFAULT_TREENODE",
+            "has_child": true,
+            "path": "分析报表"
+          },
+          {
+            "id": "I2c928087017bf286f2868956017c0bc3acb70d6e",
+            "alias": "海外直播业务线",
+            "name": "海外项目",
+            "type": "DEFAULT_TREENODE",
+            "has_child": true,
+            "path": "分析报表/海外直播业务线"
+          }
+        ]
+      },
+      {
+        "requested_path": "分析报表/平台业务线",
+        "resolved_path": "分析报表/平台业务线",
+        "resolved": [
+          {
+            "id": "PUBLIC_ANALYSIS",
+            "alias": "分析报表",
+            "name": "PUBLIC_ANALYSIS",
+            "type": "DEFAULT_TREENODE",
+            "has_child": true,
+            "path": "分析报表"
+          },
+          {
+            "id": "I2c92808701794a274a278f66017960101d4629f1",
+            "alias": "平台业务线",
+            "name": "平台业务线",
+            "type": "DEFAULT_TREENODE",
+            "has_child": true,
+            "path": "分析报表/平台业务线"
+          }
+        ]
+      }
+    ],
+    "max_depth": 6,
+    "report_types": "all_catalog_resource_types",
+    "mode": "catalog_only_no_export"
+  },
+  "summary": {
+    "catalog_entries": 600,
+    "reports": 515,
+    "type_counts": {
+      "DAQ_IMPORTCONFIG": 35,
+      "INSIGHT": 6,
+      "SIMPLE_REPORT": 111,
+      "SPREADSHEET_REPORT": 363
+    },
+    "errors": 0
+  },
+  "reports": [
+    {
+      "id": "I2c92808701847525752532cf0184c75a46775dec",
+      "alias": "TMK老数据出席绩效-3个月以前出席数",
+      "name": "TMK老数据出席绩效-3个月以前出席数",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/思维海外全链路目标录入/TMK老数据出席绩效-3个月以前出席数",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e47f67c3e6653",
+      "alias": "海外思维日经营目标填报",
+      "name": "海外思维日经营目标填报",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/思维海外全链路目标录入/海外思维日经营目标填报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e47feafa770f6",
+      "alias": "海外思维月经营目标填报",
+      "name": "海外思维月经营目标填报",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/思维海外全链路目标录入/海外思维月经营目标填报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50189065e25676f5a",
+      "alias": "思维销售激励目标录入",
+      "name": "思维销售激励目标录入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/销售激励目标录入/思维销售激励目标录入",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50189065a81bc69cf",
+      "alias": "思维销售激励目标表",
+      "name": "思维销售激励目标表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/销售激励目标录入/思维销售激励目标表",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018906543069609b",
+      "alias": "美术销售激励目标录入",
+      "name": "美术销售激励目标录入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/销售激励目标录入/美术销售激励目标录入",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018906518ebf5c7d",
+      "alias": "美术销售激励目标表",
+      "name": "美术销售激励目标表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/销售激励目标录入/美术销售激励目标表",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e752091c1491f",
+      "alias": "思维海外销售团队渠道过程指标回写模板",
+      "name": "思维海外销售团队渠道过程指标回写模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维海外销售团队渠道过程指标回写模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e74bb9e4f3975",
+      "alias": "思维海外销售渠道团队目标回写表",
+      "name": "思维海外销售渠道团队目标回写表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维海外销售渠道团队目标回写表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50188f81209d11751",
+      "alias": "思维海外销售目标表",
+      "name": "思维海外销售目标表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维海外销售目标表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50188f80a7310141e",
+      "alias": "思维销售日基准",
+      "name": "思维销售日基准",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维销售日基准",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50188f80ece641532",
+      "alias": "思维销售日基准回写模板",
+      "name": "思维销售日基准回写模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维销售日基准回写模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bfb460b4f6be2",
+      "alias": "思维销售日邀约目标回写模板",
+      "name": "思维销售日邀约目标回写模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维销售日邀约目标回写模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50188f816dd4e19b2",
+      "alias": "思维销售目标回写模板",
+      "name": "思维销售目标回写模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外前端/思维销售目标回写模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c2479da7056b8",
+      "alias": "益智海外cc架构信息表",
+      "name": "益智海外cc架构信息表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外前端/益智海外cc架构信息表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701896211621123220189b05efe11168f",
+      "alias": "思维学管M0架构录入",
+      "name": "思维学管M0架构录入",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维学管M0架构录入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701896211621123220189b0f257df7136",
+      "alias": "思维学管M0架构批量录入",
+      "name": "思维学管M0架构批量录入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维学管M0架构批量录入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018d20a91a792504",
+      "alias": "思维池内学员录入",
+      "name": "思维池内学员录入",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维池内学员录入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018d20b1e7fc34b6",
+      "alias": "思维池内学员批量录入",
+      "name": "思维池内学员批量录入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维池内学员批量录入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018722bf22bf7d4d0187741b6dcf6eb9",
+      "alias": "思维续费每月目标录入",
+      "name": "思维续费每月目标录入",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维续费每月目标录入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018722bf22bf7d4d0187743413ad1ac9",
+      "alias": "思维续费每月目标导入",
+      "name": "思维续费每月目标导入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外后端/思维续费每月目标导入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f7a857a85db80018f992e890577aa",
+      "alias": "益智LP新生分发得分排行榜导入",
+      "name": "益智LP新生分发得分排行榜导入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外后端/益智LP新生分发得分排行榜导入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa0180ffbc2834648f",
+      "alias": "海外_商务渠道结算方式",
+      "name": "海外_商务渠道结算方式",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外商务填报/海外_商务渠道结算方式",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa0180d017636230b7",
+      "alias": "海外商务_结算方式批量上传",
+      "name": "海外商务结算方式批量上传",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外商务填报/海外商务_结算方式批量上传",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401919354e99a3256",
+      "alias": "海外商务渠道目标填报",
+      "name": "海外商务渠道目标填报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外商务填报/海外商务渠道目标填报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401919789ee0d71e3",
+      "alias": "海外商务渠道目标填报上传",
+      "name": "海外商务渠道目标填报上传",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外商务填报/海外商务渠道目标填报上传",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017d08d708d7301b017d135fbe9e4b77",
+      "alias": "海外投放投手月渠道预算-批量导入",
+      "name": "海外投放投手月渠道预算-批量导入",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放例子流速报表相关填报/海外投放投手月渠道预算-批量导入",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194f140f140ae590194fe7c220918fd",
+      "alias": "投放账户数据回写表",
+      "name": "投放账户数据回写表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/投放账户数据回写表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194f140f140ae590194fec942872b5c",
+      "alias": "投放账户数据回写填报模板",
+      "name": "投放账户数据回写填报模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/投放账户数据回写填报模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701814b674b67c84a0181ad7d2bde39ad",
+      "alias": "海外投放学科平台投手例子GMV目标表",
+      "name": "海外投放学科平台投手例子GMV目标表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/海外投放学科平台投手例子GMV目标表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701814b674b67c84a0181ae1083125286",
+      "alias": "海外投放--学科平台投手例子GMV目标填报",
+      "name": "海外投放学科平台例子GMV目标填报",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/海外投放--学科平台投手例子GMV目标填报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa0180ccdd720d6ff6",
+      "alias": "海外投放ROI系数计算回写",
+      "name": "海外投放ROI系数计算回写",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/海外投放ROI系数计算回写",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa0180cce2027d7702",
+      "alias": "海外投放ROI系数回写填报模板",
+      "name": "海外投放ROI系数回写填报模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/海外投放ROI系数回写填报模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017cd66bd66bdc41017ce9117774567b",
+      "alias": "课包城市消耗周报填报数据",
+      "name": "课包城市消耗周报填报数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/课包城市消耗周报填报数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017cd66bd66bdc41017ce91e219f5fe6",
+      "alias": "课包城市消耗数据回写",
+      "name": "课包城市消耗数据回写",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/课包城市消耗数据回写",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017d08d708d7301b017d0d48ff7d03e5",
+      "alias": "课包渠道组上传模板",
+      "name": "课包渠道组上传模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/课包渠道组上传模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017cd66bd66bdc41017ce9937eab13ec",
+      "alias": "课包渠道组映射关系",
+      "name": "课包渠道组映射关系",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/课包渠道组映射关系",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f026602663eb5017f299de36407ee",
+      "alias": "海外投放--学科平台城市等级目标填报（无投手）",
+      "name": "海外投放学科平台城市等级目标填报",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/海外投放--学科平台城市等级目标填报（无投手）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bbc0bbc0bf6dd019bc5aa768979a9",
+      "alias": "素材效果信息回写表",
+      "name": "素材效果信息回写表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/素材效果信息回写表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bbc0bbc0bf6dd019bc5a3211b6c8f",
+      "alias": "素材效果信息回写填报模板",
+      "name": "素材效果信息回写填报模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外投放课包城市维度数据填报/素材效果信息回写填报模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701928ef78ef78f0901929dc1d66e7035",
+      "alias": "拓科ROI测算回写表",
+      "name": "拓科ROI测算回写表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/拓科ROI测算回写表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701928ef78ef78f0901929e41cf452179",
+      "alias": "拓科ROI测算回写表模板",
+      "name": "拓科ROI测算回写表模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/拓科ROI测算回写表模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870182ce98ce98eaa90182ee2b3f3172bb",
+      "alias": "海外拓科日例子目标",
+      "name": "海外拓科日例子目标",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/海外拓科日例子目标",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870182ce98ce98eaa90182f277e35f6968",
+      "alias": "海外拓科日目标上传模板",
+      "name": "海外拓科日目标上传目标",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/海外拓科日目标上传模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870182ce98ce98eaa90182ee447f8a2582",
+      "alias": "海外拓科月例子目标",
+      "name": "海外拓科月例子目标",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/海外拓科月例子目标",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870182ce98ce98eaa90182f27c59ac7400",
+      "alias": "海外拓科月目标上传模板",
+      "name": "海外拓科月目标上传模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外拓科目标导入/海外拓科月目标上传模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f4fbf4fbf9dbd017fbb78aebe3712",
+      "alias": "海外学科新签GMV录入模板",
+      "name": "海外学科新签GMV录入模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外学科新签GMV录入模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f4fbf4fbf9dbd017fbb1e5e5e51b6",
+      "alias": "海外学科新签目标回写",
+      "name": "海外学科新签目标回写",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外学科新签目标回写",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f4fbf4fbf9dbd017fbbb38c9a7c32",
+      "alias": "海外学科续费GMV录入模板",
+      "name": "海外学科续费GMV录入模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外学科续费GMV录入模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f4fbf4fbf9dbd017fbba8326c6fc5",
+      "alias": "海外学科续费目标回写",
+      "name": "海外学科续费目标回写",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外学科续费目标回写",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f809019781cb53f05f5b",
+      "alias": "海外益智_日目标录入模板",
+      "name": "海外益智_日目标录入模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外益智_日目标录入模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f8090197874733444658",
+      "alias": "海外益智_日目标",
+      "name": "海外益智_日目标",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外益智_日目标",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f809019782ddc128070c",
+      "alias": "海外益智_月目标录入模板",
+      "name": "海外益智_月目标录入模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外益智_月目标录入模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f8090197874ad9744ca2",
+      "alias": "海外益智_月目标",
+      "name": "海外益智_月目标",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外经营看板目标录入/海外益智_月目标",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017e6c4a6c4aa8ce017ed87ed3913fc1",
+      "alias": "KOC信息维护_批量导入_v1",
+      "name": "KOC信息维护_批量导入_v1",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/分销&KOC/KOC信息维护_批量导入_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017e6c4a6c4aa8ce017ed85e14ea2cd1",
+      "alias": "KOC信息维护表_v1",
+      "name": "KOC信息维护表_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/分销&KOC/KOC信息维护表_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa01806f7eaf251dd6",
+      "alias": "益智前端海外转介绍_日目标_CC维度",
+      "name": "益智前端海外转介绍_日目标_CC维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_目标录入_CC维度/益智前端海外转介绍_日目标_CC维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa01806fac0f234914",
+      "alias": "益智前端海外转介绍模板_月目标_CC维度",
+      "name": "益智前端海外转介绍模板_月目标_CC维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_目标录入_CC维度/益智前端海外转介绍模板_月目标_CC维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa01806f878e452673",
+      "alias": "益智海外前端转介绍_日目标批量录入_CC维度",
+      "name": "益智海外前端转介绍_日目标批量录入_CC维度",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_目标录入_CC维度/益智海外前端转介绍_日目标批量录入_CC维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa01806fb2b8f94f4a",
+      "alias": "益智海外前端转介绍_月目标批量录入_CC维度",
+      "name": "益智海外前端转介绍_月目标批量录入_CC维度",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_目标录入_CC维度/益智海外前端转介绍_月目标批量录入_CC维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701814b674b67c84a01816683972e48f3",
+      "alias": "老师架构信息明细_CC维度_v1",
+      "name": "老师架构信息明细_CC维度_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_目标录入_CC维度/老师架构信息明细_CC维度_v1",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e42874e4f3e8f",
+      "alias": "益智海外转介绍_日目标_LP维度_v1",
+      "name": "益智海外转介绍_日目标_LP维度_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_日目标_LP维度_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e42b695e5057f",
+      "alias": "益智海外转介绍_日目标_批量导入_v1",
+      "name": "益智海外转介绍_日目标_批量导入_v1",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_日目标_批量导入_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e42e4c457467f",
+      "alias": "益智海外转介绍_月目标_LP维度_v1",
+      "name": "益智海外转介绍_月目标_LP维度_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_月目标_LP维度_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e42ef43db4dc5",
+      "alias": "益智海外转介绍_月目标_批量导入_v1",
+      "name": "益智海外转介绍_月目标_批量导入_v1",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/益智海外转介绍_月目标_批量导入_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017de03ce03c56fd017e4886735646b2",
+      "alias": "老师架构信息明细_lp维度_v1",
+      "name": "老师架构信息明细_lp维度_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/益智-转介绍/老师架构信息明细_lp维度_v1",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192245924599d6c019232013ae1646d",
+      "alias": "转介绍ROI测算参数回写模板",
+      "name": "转介绍&拓科ROI测算参数回写模板",
+      "type": "DAQ_IMPORTCONFIG",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/转介绍ROI测算参数回写模板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192245924599d6c0192318c9d86625f",
+      "alias": "转介绍ROI测算参数回写表",
+      "name": "转介绍&拓科ROI测算参数回写表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/转介绍ROI测算参数回写表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901944a0b8d825509",
+      "alias": "海外经营看板",
+      "name": "海外经营分析看板V2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/海外经营看板",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701954b9d4b9d437f019551656ead1d66",
+      "alias": "海外26年新签经营指标达成",
+      "name": "海外25年经营指标GMV达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/全年关键指标/海外26年新签经营指标达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa019102bfa8f90ac4",
+      "alias": "海外26年续费经营指标达成",
+      "name": "海外关键指标达成情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/全年关键指标/海外26年续费经营指标达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c9e1df7155903",
+      "alias": "海外分区域ASP_单价",
+      "name": "海外分区域ASP&单价",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/全年关键指标/海外分区域ASP_单价",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019caff1aff10b53019cb75f45ca2ba4",
+      "alias": "海外转介绍分区域带量",
+      "name": "海外转介绍分区域带量",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/全年关键指标/海外转介绍分区域带量",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b99189019077e726da057d",
+      "alias": "海外周会总览数据_末次渠道",
+      "name": "海外周会总览数据_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/海外周会总览数据_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019462b562b5ce74019482c57b777944",
+      "alias": "投放-周会数据",
+      "name": "投放-周会数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/投放-周会数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b236723675f9c019b2591839a32ce",
+      "alias": "台湾商务-周会数据",
+      "name": "台湾商务-周会数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/台湾商务-周会数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019462b562b5ce74019484756286034f",
+      "alias": "港澳商务-周会数据",
+      "name": "港澳商务-周会数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/港澳商务-周会数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019462b562b5ce740194833b107e36ec",
+      "alias": "非港澳商务-周会数据",
+      "name": "非港澳商务-周会数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/非港澳商务-周会数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c1fbe1fbefe98019c2819ccf36e2b",
+      "alias": "Local商务-周会数据",
+      "name": "Local商务-周会数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/周报相关/Local商务-周会数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b0dd75d7a35d0",
+      "alias": "海外团队及渠道目标达成_末次渠道",
+      "name": "海外团队及渠道目标达成V1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外团队及渠道目标达成_末次渠道",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191b6ceb6ce00dd0191c10f18c6778f",
+      "alias": "海外漏斗达成情况-月趋势",
+      "name": "拆标相关数据-月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外漏斗达成情况-月趋势",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b1cc603785fd6",
+      "alias": "海外漏斗达成情况-当月",
+      "name": "美术思维口才渠道海外达成情况V1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外漏斗达成情况-当月",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c388130193a15ce516523e",
+      "alias": "投放链路关键指标-月维度",
+      "name": "投放链路关键指标-月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/投放链路关键指标-月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea501912d951191598d",
+      "alias": "益智其他渠道指标数据_财务",
+      "name": "益智其他渠道指标数据_财务",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/益智其他渠道指标数据_财务",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bfbb2fbb277bf019c03e65f9e1f2e",
+      "alias": "海外后端续费率达成_月趋势",
+      "name": "海外后端续费率达成_月趋势",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外后端续费率达成_月趋势",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a270f270fc290019a4953c31270fa",
+      "alias": "海外益智渠道日达成",
+      "name": "海外益智渠道日达成播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外益智渠道日达成",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019659bd59bdd9c30196616fcbc30c25",
+      "alias": "海外转介绍业绩达成_月趋势",
+      "name": "海外益智转介绍业绩达成_月趋势",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/业绩达成/海外转介绍业绩达成_月趋势",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193acd0acd00a880193ae7ad03042b8",
+      "alias": "海外链路ROI",
+      "name": "海外关键指标达成情况-思维链路",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/ROI/海外链路ROI",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195d6bbd6bb36420195eb1d77547eaa",
+      "alias": "ROI3模型",
+      "name": "ROI3模型",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/ROI3模型",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e0c9b3d6607cb",
+      "alias": "益智转介绍cohort",
+      "name": "益智转介绍带量cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/益智转介绍cohort",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d019647097ec70cd7",
+      "alias": "思维转介绍人均带量监控",
+      "name": "思维转介绍人均带量监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/思维转介绍人均带量监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e0da9e8534c45",
+      "alias": "美术转介绍cohort",
+      "name": "美术转介绍带量cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/美术转介绍cohort",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195f68dd5946a15",
+      "alias": "美术转介绍人均带量监控",
+      "name": "美术转介绍人均带量监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/美术转介绍人均带量监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa019106f0503700d6",
+      "alias": "海外学员拓科cohort",
+      "name": "海外学员拓科corhort图",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/海外学员拓科cohort",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d019647e477f40399",
+      "alias": "思维拓美术拓科率监控",
+      "name": "思维拓美术拓科率监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/思维拓美术拓科率监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195faf21f5f3ced",
+      "alias": "美术拓思维拓科率监控",
+      "name": "美术拓思维拓科率监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/LTV/美术拓思维拓科率监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190e9725cdc7047",
+      "alias": "海外新签课包ASP&单价",
+      "name": "益智课包占比&ASP&单价",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/单价/海外新签课包ASP&单价",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191c79ac79ac0660191dc01e9c76d99",
+      "alias": "海外续费课包ASP&单价",
+      "name": "海外续费课包ASP&单价",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/单价/海外续费课包ASP&单价",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195f16e4af27331",
+      "alias": "续费课包以及单课时单价（含课时拆分）",
+      "name": "美术续费课包以及单课时单价-ASP不剔除课时拆分",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/单价/续费课包以及单课时单价（含课时拆分）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192245924599d6c01923d85cc745081",
+      "alias": "海外益智主订单宽表",
+      "name": "海外益智主订单宽表v1",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外经营/单价/海外益智主订单宽表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bf5d1dd647e73",
+      "alias": "TMK跟进明细",
+      "name": "TMK跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/TMK跟进明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ecc9a29d95751",
+      "alias": "TMK新数据首拨间隔查询",
+      "name": "TMK新数据首拨间隔查询",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/TMK新数据首拨间隔查询",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ee66f6f72052f",
+      "alias": "海外TMK约课明细-思维",
+      "name": "海外TMK约课明细-思维",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/海外TMK约课明细-思维",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ec276757a0857",
+      "alias": "通时通次明细",
+      "name": "通时通次明细查询",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/通时通次明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b478fdce56a9e",
+      "alias": "思维学员TMK明细_首触",
+      "name": "思维学员TMK明细V2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/思维学员TMK明细_首触",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b991890190831b11484ecf",
+      "alias": "思维学员TMK明细_末次",
+      "name": "思维学员TMK明细_末次",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/思维学员TMK明细_末次",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019df461f461aff0019e16a7977f6e27",
+      "alias": "海外TMK语义分析明细（验收中）",
+      "name": "海外TMK语义分析明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/海外TMK语义分析明细（验收中）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a0303030340a3019a067f53925a3b",
+      "alias": "转介绍手推链接渠道分发CC明细",
+      "name": "转介绍手推链接渠道分发CC明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/业务明细/转介绍手推链接渠道分发CC明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018639193919a11701868218e7175216",
+      "alias": "TMK目标名单老数据激活（夜班）",
+      "name": "TMK目标名单老数据激活_3月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/TMK目标名单老数据激活（夜班）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c064fc36f4cd4",
+      "alias": "个人维度-海外TMK跟进情况",
+      "name": "个人维度-海外TMK跟进情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/个人维度-海外TMK跟进情况",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190ee98eb2f0e58",
+      "alias": "未邀约数据激活（白班）",
+      "name": "目标数据监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/未邀约数据激活（白班）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b270fe78f2e2a",
+      "alias": "海外TMK通时通次",
+      "name": "海外TMK通时通次",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK通时通次",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c0675d45372a0",
+      "alias": "渠道维度-海外TMK跟进情况",
+      "name": "渠道维度-海外TMK跟进情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/渠道维度-海外TMK跟进情况",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ea1e0920e72dc",
+      "alias": "CC月底改约查询-思维",
+      "name": "CC月底改约查询",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/CC月底改约查询-思维",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ef430e5fc0411",
+      "alias": "TMK当月约课语种占比-分地区",
+      "name": "TMK当月约课语种占比-分地区",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/TMK当月约课语种占比-分地区",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018ecb1c54e96d0e",
+      "alias": "海外TMK休息日约课监控",
+      "name": "海外TMK休息日约课监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK休息日约课监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e186cc1eb79ca",
+      "alias": "海外TMK做工监控",
+      "name": "海外TMK做工监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK做工监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701931c9d1c9dfda301932ec156a81ab3",
+      "alias": "TMK个人-渠道地区主辅投指标监控",
+      "name": "TMK个人-渠道地区主辅投指标监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/TMK个人-渠道地区主辅投指标监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f66cf66ccfe50193f73946b2226e",
+      "alias": "TMK分区域时段约课监控",
+      "name": "TMK分区域时段约课监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/TMK分区域时段约课监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e2348e6db0598",
+      "alias": "海外TMK未邀约做工监控播报",
+      "name": "海外TMK做工监控播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK未邀约做工监控播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196c5e3c5e364d30196c8e391a057fe",
+      "alias": "益智各类型池激活数据达成",
+      "name": "各类型池激活数据达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/益智各类型池激活数据达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194da48da4811080194e369260e36c9",
+      "alias": "海外商务_各渠道主辅投数据_副本",
+      "name": "海外商务_各渠道主辅投数据_副本",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外商务_各渠道主辅投数据_副本",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701975615561572ee019758c080ed4c29",
+      "alias": "TMK未邀约原因",
+      "name": "TMK未邀约原因",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/TMK未邀约原因",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198a282446a112f",
+      "alias": "夜班TMK拨打白班数据做工情况_日维度",
+      "name": "夜班TMK拨打白班数据做工情况_日维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/夜班TMK拨打白班数据做工情况_日维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019956c056c0048101995c65cfb234e2",
+      "alias": "海外TMK做工勿扰情况汇总",
+      "name": "海外TMK做工勿扰情况汇总",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK做工勿扰情况汇总",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198ab96ba5350d6",
+      "alias": "海外TMK做工监控_区域等级维度",
+      "name": "海外TMK做工监控_区域等级维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK做工监控_区域等级维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198a82b236c1740",
+      "alias": "海外TMK做工监控_渠道维度",
+      "name": "海外TMK做工监控_渠道维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK做工监控_渠道维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019df461f461aff0019e16a0e96264d7",
+      "alias": "海外TMK语义分析汇总数据（验收中）",
+      "name": "海外TMK语义分析汇总数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/海外TMK语义分析汇总数据（验收中）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c3881301938bda8d6d39b6",
+      "alias": "海外TMK业绩播报_链路",
+      "name": "海外TMK业绩播报_链路",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/海外TMK业绩播报_链路",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019996dd96ddb6ca01999e533b6474ae",
+      "alias": "分渠道-海外tmk业绩达成明细-思维学科-临时",
+      "name": "分渠道-海外tmk业绩达成明细-思维学科-临时",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/分渠道-海外tmk业绩达成明细-思维学科-临时",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019996dd96ddb6ca01999e5ddfd97bdd",
+      "alias": "分渠道-海外tmk业绩达成明细-美术学科-临时",
+      "name": "分渠道-海外tmk业绩达成明细-美术学科",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/分渠道-海外tmk业绩达成明细-美术学科-临时",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193d95228ab4516",
+      "alias": "海外TMK个人业绩播报",
+      "name": "海外TMK个人业绩播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/海外TMK个人业绩播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701928ef78ef78f090192949355dc1abd",
+      "alias": "海外TMK到课明细-思维-财务",
+      "name": "海外TMK到课明细-思维-财务",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/海外TMK到课明细-思维-财务",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701928ef78ef78f090192942c092e661e",
+      "alias": "海外TMK到课明细-美术-财务",
+      "name": "海外TMK到课明细-美术-财务",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/海外TMK到课明细-美术-财务",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d9a402d4e1962",
+      "alias": "TMK老数据提点播报",
+      "name": "TMK老数据提点播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/TMK老数据提点播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d9a7c11a67049",
+      "alias": "TMK老数据提点播报明细",
+      "name": "TMK老数据提点播报明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/海外TMK绩效/TMK老数据提点播报明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195c98bc98bc8470195cc49bf1653b0",
+      "alias": "北美TMK通时通次播报",
+      "name": "北美TMK通时通次播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/北美TMK通时通次播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019611a411a4ce6701962b164b311934",
+      "alias": "TMK港澳FB指标监控",
+      "name": "TMK港澳FB指标监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/TMK港澳FB指标监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192685f685f655d01927a87ef9021b9",
+      "alias": "Whats指标监控播报",
+      "name": "Whats指标监控播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/Whats指标监控播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701928ef78ef78f090192a4185de1117e",
+      "alias": "Whats指标监控播报-日维度",
+      "name": "Whats指标监控播报-日维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/Whats指标监控播报-日维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701948cd18cd1c2f4019497dd98f81492",
+      "alias": "TMK值班监控",
+      "name": "TMK值班监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/TMK值班监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901944604621353b5",
+      "alias": "TMK小红书境内播报",
+      "name": "TMK小红书境内播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/TMK小红书境内播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901945598b98c7f2a",
+      "alias": "美术Demo课各时段学员／班量分布",
+      "name": "美术Demo课各时段学员／班量分布",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/TMK/其他/美术Demo课各时段学员／班量分布",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401915a1338eb553b",
+      "alias": "益智demo课看板",
+      "name": "海外益智demo课看板",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/益智demo课看板",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018ce2a5b4bc29f5",
+      "alias": "Demo课分语种分阶段不同时段满班率",
+      "name": "Demo课分语种不同时段满班率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课分语种分阶段不同时段满班率",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191c79ac79ac0660191cf8645a765f8",
+      "alias": "Demo课分课件不同时段满班率",
+      "name": "Demo课分课件不同时段满班率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课分课件不同时段满班率",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bd1e6d36226b7",
+      "alias": "Demo课各时段学员／班量分布",
+      "name": "Demo课各时段学员／班量分布",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课各时段学员／班量分布",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194851b851b23ff019487e67e266d0e",
+      "alias": "Demo课繁体课件占比及转化",
+      "name": "Demo课繁体课件占比&转化",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课繁体课件占比及转化",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b1df019ab2fc8",
+      "alias": "益智Demo课上课明细",
+      "name": "demo课上课明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/益智Demo课上课明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b21c85a136ff3",
+      "alias": "益智demo课专职老师监控",
+      "name": "益智demo课专职老师监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/益智demo课专职老师监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190e015410c1f5e",
+      "alias": "益智接通率cohort",
+      "name": "益智接通率cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智接通率cohort",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199f1ac455e1b6b",
+      "alias": "益智AFTEE跟进监控",
+      "name": "益智AFTEE跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智AFTEE跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194da48da4811080194e50b0e756360",
+      "alias": "益智CC通时通次",
+      "name": "益智CC通时通次",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智CC通时通次",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c38813019390a79e8c64d5",
+      "alias": "益智CC批量外呼监控",
+      "name": "益智CC批量外呼监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智CC批量外呼监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018722bf22bf7d4d0187640f659b015d",
+      "alias": "思维销售奥创绑定监控报表",
+      "name": "思维销售奥创绑定监控报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/思维销售奥创绑定监控报表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701982e602e608c01019830f2c1842400",
+      "alias": "益智CC沟通明细",
+      "name": "益智CC沟通明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智CC沟通明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f856f856837a0193fcff81721ffb",
+      "alias": "益智批量外呼明细",
+      "name": "益智批量外呼明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智批量外呼明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a17fe504a5633",
+      "alias": "益智奥创销售绑定明细",
+      "name": "益智奥创销售绑定明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智奥创销售绑定明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a2721afd230ad",
+      "alias": "当月沟通学员明细_思维",
+      "name": "当月沟通学员明细_思维",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/当月沟通学员明细_思维",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192685f685f655d01928008bc86164b",
+      "alias": "益智follow跟进明细",
+      "name": "益智CC-follow跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智follow跟进明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018fe63be63b7983018ff2ae47832c39",
+      "alias": "思维25年618老数据跟进监控",
+      "name": "思维特定用户跟进监控_12月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/思维25年618老数据跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a6201981734f7856f5a",
+      "alias": "益智CC群发消息明细",
+      "name": "益智CC群发消息明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智CC群发消息明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019cd752d752b5ad019cd87dfecf2990",
+      "alias": "益智CC日通时通次监控",
+      "name": "益智CC日通时通次监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/沟通/益智CC日通时通次监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f09ec09ec9f61018f670dbd025b3d",
+      "alias": "日分发约课过程监控_益智",
+      "name": "日分发约课过程监控_益智_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/日分发约课过程监控_益智",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e55a892b56bd3",
+      "alias": "海外益智新分指标明细",
+      "name": "海外益智新分指标明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/海外益智新分指标明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018c67d8bf6e67a6",
+      "alias": "思维日分发约课跟进明细",
+      "name": "思维日分发约课跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/思维日分发约课跟进明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a93359335523c019ab56009e93bf7",
+      "alias": "海外益智CC未邀约原因",
+      "name": "海益智CC未邀约原因",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/海外益智CC未邀约原因",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198dfcc753a765e",
+      "alias": "益智CC日约课行为监控",
+      "name": "益智台湾CC日约课行为监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/益智CC日约课行为监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019906ab06aba46a019918be569459db",
+      "alias": "益智T+N未约课未成交跟进监控",
+      "name": "益智T+N未约课未成交跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/约课/益智T+N未约课未成交跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c1a4430107060",
+      "alias": "日应到课过程监控_益智",
+      "name": "日应到课过程监控_益智",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/日应到课过程监控_益智",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019972d172d12ff50199761100b66ef2",
+      "alias": "益智CC课后跟进监控_特定时段",
+      "name": "益智CC课后跟进监控_特定时段",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC课后跟进监控_特定时段",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018d40264026d2d2018d5f6aa6a5082c",
+      "alias": "益智海外cc应到课监控",
+      "name": "益智海外cc应到课监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智海外cc应到课监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901945eff16db7cb2",
+      "alias": "益智CC分发_到课跟进监控",
+      "name": "海外益智CC分发&到课跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC分发_到课跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019539593959ba9e01954b75b4ab0cf8",
+      "alias": "益智CC分批次跟进监控",
+      "name": "益智CC分批次跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC分批次跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019906ab06aba46a019917c4e7824152",
+      "alias": "益智CC应到课策略监控",
+      "name": "益智台湾CC应到课策略监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC应到课策略监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198e00b0ad77611",
+      "alias": "益智CC日应到课APP监控",
+      "name": "益智台湾CC日应到课APP下载监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC日应到课APP监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196e9efe9efe5990196fcb212124e8b",
+      "alias": "益智CC课后SOP语义分析明细",
+      "name": "益智CC课后SOP语义分析明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC课后SOP语义分析明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195154d154d33720195275c1a162462",
+      "alias": "益智CC课后SOP语义分析监控",
+      "name": "益智CC课后SOP语义分析监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC课后SOP语义分析监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d1c161c169825019d28c885d46719",
+      "alias": "益智CC课后T+N跟进监控",
+      "name": "益智CC课后T+N跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智CC课后T+N跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198bbeb3bb717d7",
+      "alias": "益智台湾CC到课时段监控",
+      "name": "益智台湾CC到课时段监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智台湾CC到课时段监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870197e647e64783670197f03299da4b16",
+      "alias": "益智应到课学员明细",
+      "name": "益智应到课明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/到课/益智应到课学员明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018cf73e38cf4771",
+      "alias": "思维用户池子流转记录",
+      "name": "思维用户池子流转记录",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/思维用户池子流转记录",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190c06feb6738e8",
+      "alias": "益智各类型池激活数据达成",
+      "name": "各类型池激活数据达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/益智各类型池激活数据达成",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea50191179febbd4b08",
+      "alias": "益智海外学员流转跟进监控",
+      "name": "益智海外学员流转跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/益智海外学员流转跟进监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea50191179a822c48ec",
+      "alias": "海外益智学员流转跟进明细",
+      "name": "海外益智学员流转跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智学员流转跟进明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b236723675f9c019b25a9e3d94acf",
+      "alias": "海外益智CC分发等级及配额监控",
+      "name": "海外益智CC分发等级及配额监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智CC分发等级及配额监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019b9c58770f1002",
+      "alias": "海外益智CC分发等级及配额监控明细",
+      "name": "海外益智CC分发配额监控明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智CC分发等级及配额监控明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019b923d81f03a44",
+      "alias": "海外益智CC分发资源情况监控",
+      "name": "海外益智CC分发资源情况监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智CC分发资源情况监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019ab741b741d5be019ac4e9b6311a45",
+      "alias": "海外益智CC流转公海监控",
+      "name": "海外益智CC流转公海监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智CC流转公海监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a4b1c4b1c4843019a57e2ebf43fb2",
+      "alias": "海外益智兜底池渠道监控",
+      "name": "海外益智兜底池渠道监控",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/海外益智兜底池渠道监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196c5e3c5e364d30196d370b50a6c89",
+      "alias": "益智管理者流转监控",
+      "name": "益智TL流转监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/过程跟进/流转/益智管理者流转监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018de8a92ab24ad1",
+      "alias": "益智海外用户销售明细_末次渠道",
+      "name": "益智海外用户销售明细_末次渠道",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智海外用户销售明细_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018ba8c5baef5e66",
+      "alias": "益智CC跟进",
+      "name": "益智CC跟进_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智CC跟进",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c3881301939ad565054479",
+      "alias": "益智CC跟进_台湾",
+      "name": "益智CC跟进_末次渠道_台湾",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智CC跟进_台湾",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f09ec09ec9f61018f61cac6440b1d",
+      "alias": "益智销售新数据转化漏斗_cc维度_末次渠道",
+      "name": "益智销售新数据转化漏斗_cc维度_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智销售新数据转化漏斗_cc维度_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f09ec09ec9f61018f7654b56d2f86",
+      "alias": "益智销售新数据转化漏斗_渠道维度_末次渠道",
+      "name": "益智销售新数据转化漏斗_渠道维度_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智销售新数据转化漏斗_渠道维度_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018fe63be63b79830190122b0ef75b63",
+      "alias": "益智约课&转化cohort_末次渠道",
+      "name": "思维约课&转化cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智约课&转化cohort_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195a57fa57f424a0195b482e663058f",
+      "alias": "益智KOLHK转化漏斗",
+      "name": "益智KOLHK转化漏斗",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智KOLHK转化漏斗",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a62019811f4f80120fb",
+      "alias": "益智KOLTW转化漏斗",
+      "name": "益智KOLTW转化漏斗",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智KOLTW转化漏斗",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195a57fa57f424a0195b2e1f33c1e71",
+      "alias": "益智海外销售KOLHK转化漏斗",
+      "name": "益智海外CC漏斗达成_港澳商务",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智海外销售KOLHK转化漏斗",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a6201980c0c95933dfe",
+      "alias": "益智海外销售KOLTW转化漏斗",
+      "name": "益智海外销售KOLTW转化漏斗",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智海外销售KOLTW转化漏斗",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701954b9d4b9d437f01955c303dad1ccc",
+      "alias": "益智分配池监控",
+      "name": "益智分配池监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智分配池监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a72e8e6ca28ff",
+      "alias": "益智销售新数据漏斗明细",
+      "name": "益智销售新数据漏斗明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智销售新数据漏斗明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018ac00a078f4e15",
+      "alias": "思维老数据成交明细",
+      "name": "思维老数据成交明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/思维老数据成交明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f66cf66ccfe50193f7c9998d181a",
+      "alias": "益智海外用户销售明细_转介绍",
+      "name": "益智海外用户销售明细_转介绍",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智海外用户销售明细_转介绍",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019cf80af80a169e019d009478b6442f",
+      "alias": "益智CC过程跟进监控",
+      "name": "益智CC过程跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智CC过程跟进监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018fe63be63b79830190069669b23a51",
+      "alias": "益智海外团队渠道业绩达成",
+      "name": "益智海外团队渠道业绩达成_test",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外团队渠道业绩达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195c98bc98bc8470195ce170b9361ca",
+      "alias": "益智海外分团队业绩达成_月度",
+      "name": "益智海外分团队业绩达成_月度L",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外分团队业绩达成_月度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901907cdd09312c65",
+      "alias": "益智海外销售个人业绩达成",
+      "name": "益智海外销售个人业绩达成_v2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外销售个人业绩达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c9de7d10a7b89",
+      "alias": "益智海外团队二级渠道业绩达成",
+      "name": "益智海外团队二级渠道业绩达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外团队二级渠道业绩达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901906835fdbd18fd",
+      "alias": "益智月度复盘模型",
+      "name": "复盘模型-test",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智月度复盘模型",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f7a857a85db80018fa40e063005a2",
+      "alias": "益智产能播报_末次渠道",
+      "name": "益智产能播报_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智产能播报_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e50188dd51279c099c",
+      "alias": "思维销售业绩进度播报",
+      "name": "思维销售进度播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/思维销售业绩进度播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d4024402408a1019d472efa23292f",
+      "alias": "益智台湾CC业绩排名",
+      "name": "益智台湾CC业绩排名",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智台湾CC业绩排名",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e185776c150ca",
+      "alias": "益智海外CC业绩排名",
+      "name": "益智海外CC业绩排名",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外CC业绩排名",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190bad487ef3dbc",
+      "alias": "益智港澳CC达成数据",
+      "name": "益智港澳CC达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智港澳CC达成数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701982e602e608c0101983692fce8714f",
+      "alias": "益智海外TL盘点达成",
+      "name": "益智海外TL盘点达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智海外TL盘点达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192685f685f655d01927f6ae8736af6",
+      "alias": "益智CC加权单量达成",
+      "name": "益智CC加权单量达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智CC加权单量达成",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018b127b8923719c",
+      "alias": "益智各渠道例子日流速",
+      "name": "海外益智日流速V1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智各渠道例子日流速",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192f892f89262770193058f4d364686",
+      "alias": "益智各渠道分发日流速",
+      "name": "益智各渠道分发日流速",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智各渠道分发日流速",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b55c655c6f62a019b59a92e0a041c",
+      "alias": "益智销售TL业绩进度播报",
+      "name": "益智销售TL业绩进度播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智销售TL业绩进度播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a270f270fc290019a38ca4d0f00e2",
+      "alias": "益智销售绩效数据",
+      "name": "益智销售绩效数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智销售绩效数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d1c161c169825019d291bca73721b",
+      "alias": "益智CC外渠转化排名",
+      "name": "益智CC外渠转化排名",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成/益智CC外渠转化排名",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701948cd18cd1c2f401949294ff2c76a8",
+      "alias": "益智成交学员回访监控明细",
+      "name": "益智成交学员回访监控明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/前端转介绍/CC深服项目/益智成交学员回访监控明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b991890190728b8fc17e00",
+      "alias": "思维前端CC播报_末次渠道",
+      "name": "思维前端CC播报_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/前端转介绍/思维前端CC播报_末次渠道",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191fc70fc70c7bf01921e38c980161f",
+      "alias": "思维转介绍-分批次转化链路数据",
+      "name": "思维转介绍-分批次转化链路数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/前端转介绍/思维转介绍-分批次转化链路数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f80901978b1460116536",
+      "alias": "益智转介绍分类型转化链路数据",
+      "name": "益智转介绍分类型转化链路数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/前端转介绍/益智转介绍分类型转化链路数据",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195f4ab1f824676",
+      "alias": "益智CC打卡率",
+      "name": "益智CC打卡率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC打卡率",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701948cd18cd1c2f40194920fb23b498d",
+      "alias": "益智成交学员回访监控",
+      "name": "益智CC成交学员回访监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智成交学员回访监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195f6a6ef920410",
+      "alias": "益智CC转介绍回流TMK监控",
+      "name": "益智CC转介绍回流TMK监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC转介绍回流TMK监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195154d154d33720195181724cd5527",
+      "alias": "益智CC退费申请前跟进监控",
+      "name": "益智CC退费申请前跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC退费申请前跟进监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195d6bbd6bb36420195d6d78c763ba8",
+      "alias": "益智CC签单follow监控",
+      "name": "益智CC签单follow监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC签单follow监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019e186e186e355a019e1a35e1503306",
+      "alias": "益智CC签单课时follow监控（验收中）",
+      "name": "益智CC签单课时follow监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC签单课时follow监控（验收中）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a940191471a4d1677d6",
+      "alias": "海外学员排班数据_CC维度",
+      "name": "海外学员排班数据_CC维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/海外学员排班数据_CC维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199e6a7e8eb007e",
+      "alias": "海外学员等班数据_CC维度",
+      "name": "海外学员等班数据_CC维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/海外学员等班数据_CC维度",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196e9efe9efe5990196f240efce28a8",
+      "alias": "益智CC打卡跟进明细",
+      "name": "益智CC打卡跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智CC打卡跟进明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d01963f233b0d4a60",
+      "alias": "益智成交学员等班明细",
+      "name": "益智成交学员等班明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/CC重点管理指标/益智成交学员等班明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190e51602ce5a05",
+      "alias": "海外CC各司龄人数&接量&GMV",
+      "name": "海外CC各司龄人数&接量&GMV",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/海外CC各司龄人数&接量&GMV",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea501912cdf01831598",
+      "alias": "益智销售单量激励",
+      "name": "益智销售单量激励",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/益智销售单量激励",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a94019198f1f8ba21f4",
+      "alias": "海外销售员工架构表",
+      "name": "海外员工架构表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外前端/海外销售员工架构表",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193eed44d484b07",
+      "alias": "升舱续费率（分课包）--默认显示一续_旧节点",
+      "name": "一单升舱续费率（当月分课包）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/25年及以前旧节点/升舱续费率（分课包）--默认显示一续_旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193e3f420031f69",
+      "alias": "早鸟续费率（分课包）--默认显示一续_旧节点",
+      "name": "一单早鸟续费率（当月分课包）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/25年及以前旧节点/早鸟续费率（分课包）--默认显示一续_旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b47734773e654019b4a123ce15ef7",
+      "alias": "统合早鸟续费率-（分课包）_旧节点",
+      "name": "统合早鸟续费率-（分课包）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/25年及以前旧节点/统合早鸟续费率-（分课包）_旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193ed733b606832",
+      "alias": "近三月结课续费率 --默认显示一续",
+      "name": "一单结课续费率（近三月达成）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/近三月结课续费率 --默认显示一续",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901944a9a09e444c0",
+      "alias": "统合结课续费率（近三月达成）_LP维度",
+      "name": "统合结课续费率（近三月达成）_LP维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/统合结课续费率（近三月达成）_LP维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019581728172bf1e01958e52306125c8",
+      "alias": "极大极小课包续费率",
+      "name": "极大极小课包续费率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/极大极小课包续费率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bf6afc75d6b5e",
+      "alias": "海外思维学管定金播报",
+      "name": "海外思维定金播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/海外思维学管定金播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f66cf66ccfe50193f6b40bc66a32",
+      "alias": "海外思维续费播报",
+      "name": "海外思维续费播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/海外思维续费播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701970dfc0dfc697601971f1f763753a9",
+      "alias": "续费池瓜分播报",
+      "name": "续费池瓜分播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/续费池瓜分播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b47734773e654019b49cadf583c27",
+      "alias": "升舱续费率-（分课包）-默认一续",
+      "name": "升舱续费率-（分课包）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/升舱续费率-（分课包）-默认一续",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701994ec44ec4adf40199569a7fee266e",
+      "alias": "思维海外池内未续用户跟进播报",
+      "name": "海外LP未续池跟进日监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/思维海外池内未续用户跟进播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b47734773e654019b4a28e4780f91",
+      "alias": "早鸟续费率-（分课包）-默认一续",
+      "name": "早鸟续费率-（分课包）-默认一续",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/早鸟续费率-（分课包）-默认一续",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019b9cff6d373f6f",
+      "alias": "统合升舱续费率-分课包",
+      "name": "统合升舱续费率-分课包",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/统合升舱续费率-分课包",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b47734773e654019b4a3a61a6355e",
+      "alias": "统合早鸟续费率-分课包",
+      "name": "统合早鸟续费率-分课包-26年启用",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费播报/统合早鸟续费率-分课包",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f856f856837a0193fd24e39c4b05",
+      "alias": "益智批量外呼明细",
+      "name": "益智批量外呼明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/益智批量外呼明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e89596ee43ab4",
+      "alias": "企微关键词覆盖明细（维护中）",
+      "name": "企微关键词覆盖明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/企微关键词覆盖明细（维护中）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701882d132d13270e0188333204486e5d",
+      "alias": "思维海外池内未续用户跟进明细",
+      "name": "思维海外池子跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/思维海外池内未续用户跟进明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195c98bc98bc8470195d63c3a592bb6",
+      "alias": "思维续费ASP&课时单价明细",
+      "name": "思维续费ASP&课时单价明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/思维续费ASP&课时单价明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018ca0b1d04246de",
+      "alias": "海外思维LP每日外呼明细V2",
+      "name": "海外思维LP每日外呼明细V2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维LP每日外呼明细V2",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c8019382b3dbfe69b6",
+      "alias": "海外思维学员语义分析明细",
+      "name": "海外思维未续学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维学员语义分析明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b236723675f9c019b353f6027505b",
+      "alias": "海外思维续费规划表_新版_26年启用",
+      "name": "海外思维续费规划表_新",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维续费规划表_新版_26年启用",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193acd0acd00a880193bfe635c072b1",
+      "alias": "海外思维续费规划表-旧版",
+      "name": "海外思维续费规划表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维续费规划表-旧版",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195d6bbd6bb36420195d6edb0856289",
+      "alias": "海外思维续费订单关闭明细",
+      "name": "海外思维续费订单关闭明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维续费订单关闭明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701975615561572ee0197594e6bf14478",
+      "alias": "海外思维续费订单明细",
+      "name": "海外思维续费订单明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/海外思维续费订单明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018962116211232201899c0d1c5f6738",
+      "alias": "益智海外续费子订单宽表",
+      "name": "益智海外子订单宽表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/益智海外续费子订单宽表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019659bd59bdd9c301966e95a9f862bb",
+      "alias": "语义分析报价顺序及套餐明细",
+      "name": "语义分析报价顺序及套餐明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/语义分析报价顺序及套餐明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019ae25bec833e06",
+      "alias": "课时拆分学员业绩均分明细",
+      "name": "课时拆分学员业绩均分明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费明细/课时拆分学员业绩均分明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bd2570bb5066d",
+      "alias": "M0管理--海外思维LP每日外呼跟进",
+      "name": "海外思维LP每日外呼跟进--M0管理（验收中）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/M0管理--海外思维LP每日外呼跟进",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e84a757b31b7f",
+      "alias": "企微关键词覆盖监控表",
+      "name": "企微关键词覆盖监控表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/企微关键词覆盖监控表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a9292f5272f68",
+      "alias": "思维目标池未续跟进情况",
+      "name": "思维目标池未续跟进情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/思维目标池未续跟进情况",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018e0dd8151913ec",
+      "alias": "海外思维LP每日外呼跟进V2",
+      "name": "海外思维LP每日外呼跟进V2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/海外思维LP每日外呼跟进V2",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c388130193911fbab24b7d",
+      "alias": "益智LP批量外呼监控",
+      "name": "益智LP批量外呼监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/益智LP批量外呼监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f7a857a85db80018fe213f6f969f4",
+      "alias": "结课池做工监控",
+      "name": "结课池做工监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/结课池做工监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018fe63be63b7983018ff0ce4c724a74",
+      "alias": "续费日LP做工监控",
+      "name": "池内学员做工监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/续费日LP做工监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019ab741b741d5be019abf5dc8285255",
+      "alias": "思维LP做工以及产出数据-默认三个月内入职LP",
+      "name": "思维LP做工以及产出数据-默认三个月内入职LP",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/思维LP做工以及产出数据-默认三个月内入职LP",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701975615561572ee0197586869e01a97",
+      "alias": "思维池外学员每日出单监控",
+      "name": "思维池外学员每日出单监控",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/思维池外学员每日出单监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901944afe74dd599a",
+      "alias": "思维目标池未续跟进_统合",
+      "name": "思维目标池未续跟进_统合",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/思维目标池未续跟进_统合",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019aedf09d2f4b12",
+      "alias": "新签学员各课包ASP以及一续ASP",
+      "name": "新签学员各课包ASP以及一续ASP",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/新签学员各课包ASP以及一续ASP",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701979e2e9e2e7c830197b0bce3376e74",
+      "alias": "池内课包各节点做工数据",
+      "name": "池内课包各节点做工数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/池内课包各节点做工数据",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701975615561572ee0197586dddd729b5",
+      "alias": "池外续费链接监控",
+      "name": "池外续费链接监控",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/池外续费链接监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019659bd59bdd9c301967629c3a912f2",
+      "alias": "海外益智不可续学员续费监控",
+      "name": "海外益智不可续学员续费监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/海外益智不可续学员续费监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196a1d6a1d6dec80196b3fcd0de74c5",
+      "alias": "海外益智合同转移学员监控",
+      "name": "海外益智合同转移学员监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/海外益智合同转移学员监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701979e2e9e2e7c830197aa6c977311eb",
+      "alias": "海外益智首消学员外呼cohort",
+      "name": "海外益智首消学员外呼cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/海外益智首消学员外呼cohort",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b6b806b806732019b6f37aa514302",
+      "alias": "续费池内学员各节点增长情况",
+      "name": "续费池内学员各节点增长情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费监控/续费池内学员各节点增长情况",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f670194135a5f7b4682",
+      "alias": "池内GMV目标达成-旧节点",
+      "name": "池内GMV目标达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/25年及以前旧节点/池内GMV目标达成-旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f67019403af4b3503bf",
+      "alias": "统合升舱续费率趋势-旧节点",
+      "name": "一单升舱续费率趋势",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/25年及以前旧节点/统合升舱续费率趋势-旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f67019403c6dd180a7e",
+      "alias": "统合早鸟续费率趋势-旧节点",
+      "name": "一单早鸟续费率趋势",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/25年及以前旧节点/统合早鸟续费率趋势-旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193ee014b2b4966",
+      "alias": "一单结课续费率（各节点达成及涨幅）-旧节点",
+      "name": "一单结课续费率（近三月涨幅趋势）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/25年及以前旧节点/一单结课续费率（各节点达成及涨幅）-旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b90198596a6cde3834",
+      "alias": "结课月近三月涨幅趋势（做工维度）-旧节点",
+      "name": "结课月近三月涨幅趋势（做工维度）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/25年及以前旧节点/结课月近三月涨幅趋势（做工维度）-旧节点",
+      "depth": 6,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e019a00ee35df7d20",
+      "alias": "海外思维续费周流速",
+      "name": "海外思维续费周流速",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/海外思维续费周流速",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f856f856837a0193fe9a1dd30184",
+      "alias": "M0-海外思维续费播报",
+      "name": "M0-海外思维续费播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/M0-海外思维续费播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701979e2e9e2e7c830197a67837095c9b",
+      "alias": "思维海外续费GMV达成BY小组BY月",
+      "name": "思维海外续费GMV达成BY月BY小组",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维海外续费GMV达成BY小组BY月",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191fc70fc70c7bf019203d9f4a9349f",
+      "alias": "思维目标池未续学员产能对比",
+      "name": "思维目标池未续学员转化数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维目标池未续学员产能对比",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c8019381d6255846c9",
+      "alias": "海外思维池内学员语义分析",
+      "name": "海外思维未续学员详情",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/海外思维池内学员语义分析",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f67019412ed1e3a5ff8",
+      "alias": "思维活跃低课时学员续费率",
+      "name": "思维活跃低课时学员续费率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维活跃低课时学员续费率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d040195f9bb2383532c",
+      "alias": "思维学员各学阶快照续费率",
+      "name": "思维学员各学阶快照续费率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维学员各学阶快照续费率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195154d154d337201951da0b6c80f5f",
+      "alias": "思维学员各语种快照续费率",
+      "name": "思维学员各语种快照续费率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维学员各语种快照续费率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a0303030340a3019a0fb6cd0c013a",
+      "alias": "思维续费语种&学阶快照续费率",
+      "name": "思维续费语种&学阶快照续费率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维续费语种&学阶快照续费率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc9019454f601420f38",
+      "alias": "思维续费率cohort（五单-七单）",
+      "name": "思维续费率cohort（五六单）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维续费率cohort（五单-七单）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f6701941831e7aa588e",
+      "alias": "思维续费率cohort（首单-四单）",
+      "name": "思维续费率cohort",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/思维续费率cohort（首单-四单）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193d53841661ba0",
+      "alias": "统合结课续费率趋势（分续池）",
+      "name": "思维结课月续费率（一二三四五六续）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/统合结课续费率趋势（分续池）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f856f856837a0193fd903a4860cf",
+      "alias": "统合结课续费率趋势（分课包）",
+      "name": "一单结课续费率趋势",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/统合结课续费率趋势（分课包）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019bb1d992262c96",
+      "alias": "一单结课续费率（各节点达成及涨幅）",
+      "name": "一单结课续费率（各节点达成及涨幅）-26年",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/一单结课续费率（各节点达成及涨幅）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019bb13c844711f3",
+      "alias": "池内GMV目标达成",
+      "name": "思维各节点续费GMV目标达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/池内GMV目标达成",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019bb1f3b2f05732",
+      "alias": "结课月近三月涨幅趋势（做工维度）",
+      "name": "结课月近三月涨幅趋势（做工维度）-26年",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/结课月近三月涨幅趋势（做工维度）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019bb18759821ebf",
+      "alias": "统合升舱续费率趋势",
+      "name": "统合升舱续费率趋势-26年",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/统合升舱续费率趋势",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019bb19eedda41e5",
+      "alias": "统合早鸟续费率趋势",
+      "name": "统合早鸟续费率趋势-26年",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/续费/续费达成/统合早鸟续费率趋势",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901906d74b34b0840",
+      "alias": "益智业绩播报LP维度-M0管理_末次渠道",
+      "name": "益智业绩播报LP维度-M0管理_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/定期播报/益智业绩播报LP维度-M0管理_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a940191b15e503d1c34",
+      "alias": "益智打卡学员数据播报_LP维度_末次渠道",
+      "name": "益智打卡学员数据播报_LP维度_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/定期播报/益智打卡学员数据播报_LP维度_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901905286967a0d71",
+      "alias": "转介绍益智业绩播报_LP维度_末次渠道",
+      "name": "益智业绩播报_LP维度_v3",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/定期播报/转介绍益智业绩播报_LP维度_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d01964294be945060",
+      "alias": "思维转介绍语义分析明细",
+      "name": "思维转介绍语义分析明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/思维转介绍语义分析明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019caff1aff10b53019cbcbcc2d95210",
+      "alias": "思维转介绍过程跟进明细-目标池",
+      "name": "思维转介绍过程跟进明细-目标池",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/思维转介绍过程跟进明细-目标池",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a727e727e35b1019a776750975c74",
+      "alias": "海外正式课学员带量明细_末次渠道_新",
+      "name": "海外正式课学员带量明细_末次渠道_新",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/海外正式课学员带量明细_末次渠道_新",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870194851b851b23ff01948813146968fd",
+      "alias": "海外益智转介绍激励及绩效明细数据",
+      "name": "海外益智转介绍激励及绩效明细数据",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/海外益智转介绍激励及绩效明细数据",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b2190f66233fc",
+      "alias": "益智首消M1-M3学员明细",
+      "name": "益智首消M1-M3学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/益智首消M1-M3学员明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b236723675f9c019b45736bfc1808",
+      "alias": "后端转介绍例子分类汇总数据",
+      "name": "后端转介绍例子分类汇总数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/后端转介绍例子分类汇总数据",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea5019111313c831740",
+      "alias": "思维关键词沟通报表_末次渠道",
+      "name": "思维关键词沟通报表_末次渠道",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/思维关键词沟通报表_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a940191a26a0e36245d",
+      "alias": "思维各生命周期学员打卡数据_末次渠道",
+      "name": "思维各生命周期学员打卡数据_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/思维各生命周期学员打卡数据_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701955d665d663acc0195653e614c7422",
+      "alias": "思维后端转介绍手推&非手推达成情况",
+      "name": "思维后端转介绍手推&非手推达成情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/思维后端转介绍手推&非手推达成情况",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b991890190541283cb795c",
+      "alias": "思维转介绍分区域带量情况_v2_末次渠道",
+      "name": "思维转介绍分区域带量情况_v2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/思维转介绍分区域带量情况_v2_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a940191b1cf2a202710",
+      "alias": "思维转介绍过程跟进报表_末次渠道",
+      "name": "思维转介绍过程跟进报表_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/思维转介绍过程跟进报表_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f80901977d23f14a3c1a",
+      "alias": "海外思维LP转拓日做工监控",
+      "name": "海外思维LP转拓日做工监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/海外思维LP转拓日做工监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901906cee059e6f81",
+      "alias": "益智沉默&续费&M1_M2转介绍覆盖情况_汇总_末次渠道",
+      "name": "益智沉默&续费&M1_M2转介绍覆盖情况_汇总_v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/益智沉默&续费&M1_M2转介绍覆盖情况_汇总_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea501910d79921d4a5c",
+      "alias": "益智沉默&续费&M1_M3跟进情况_LP维度_末次渠道",
+      "name": "益智沉默&续费&M1_M2跟进情况_末次渠道",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/益智沉默&续费&M1_M3跟进情况_LP维度_末次渠道",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196c5e3c5e364d30196e46796ef22ca",
+      "alias": "转介绍带量做工监控表",
+      "name": "转介绍带量做工监控表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍监控/转介绍带量做工监控表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c801936c512ef82c7f",
+      "alias": "思维转介绍业绩达成进度",
+      "name": "思维转介绍业绩达成进度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍达成/思维转介绍业绩达成进度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192f892f892627701931ab7bcf72326",
+      "alias": "海外益智转介绍激励及绩效数据（验收中）",
+      "name": "海外益智转介绍激励及绩效数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍达成/海外益智转介绍激励及绩效数据（验收中）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d01964258e2355924",
+      "alias": "益智转介绍语义分析",
+      "name": "转介绍语义分析",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍达成/益智转介绍语义分析",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017f4fbf4fbf9dbd017f69640dfc4709",
+      "alias": "豌豆领袖运营数据汇总表_首触",
+      "name": "豌豆运营KOC带量效果看板",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍达成/豌豆领袖运营数据汇总表_首触",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c9df436c90fdd",
+      "alias": "转介绍打卡链路汇总数据",
+      "name": "转介绍打卡链路汇总数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍达成/转介绍打卡链路汇总数据",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c248c2aef779c",
+      "alias": "思维停课学员执行明细",
+      "name": "思维停课学员执行明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/停课唤醒/思维停课学员执行明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c24e77b3c3525",
+      "alias": "思维停课学员执行监控",
+      "name": "思维停课学员执行监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/停课唤醒/思维停课学员执行监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018f7a857a85db80018fb967ab1e1659",
+      "alias": "海外自动耗课明细表",
+      "name": "海外自动消课明细表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/停课唤醒/海外自动耗课明细表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c04c404c4bd42019c0cc785403d69",
+      "alias": "各区域本地化学情关键词回复情况",
+      "name": "各区域本地化学情关键词回复情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/各区域本地化学情关键词回复情况",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c97e154655e1e",
+      "alias": "LP系统外呼监控-分池子",
+      "name": "LP系统外呼监控-分池子",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/LP系统外呼监控-分池子",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c980bb6a121a1",
+      "alias": "LP系统外呼监控-分池子明细",
+      "name": "LP系统外呼监控-分池子明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/LP系统外呼监控-分池子明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c994d3f4a3e2c",
+      "alias": "LP企微回复比监控-分池子",
+      "name": "LP企微回复比监控-分池子",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/LP企微回复比监控-分池子",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c9987db353015",
+      "alias": "LP企微回复比监控-分池子明细",
+      "name": "LP企微回复比监控-分池子明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/LP企微回复比监控-分池子明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019df461f461aff0019e01b9e4b17787",
+      "alias": "外呼企微回复比_周维度",
+      "name": "外呼企微回复比_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/学情&服务质量/外呼企微回复比_周维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198bc740f510455",
+      "alias": "思维海外群发消息汇总数据播报",
+      "name": "思维海外群发消息汇总数据播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/思维海外群发消息汇总数据播报",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f01987f2744dc5ec4",
+      "alias": "海外思维LP群发消息明细",
+      "name": "海外思维LP群发消息明细_V1",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外思维LP群发消息明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019972d172d12ff501997464387b0962",
+      "alias": "海外思维LP群发消息明细_无24h回复率",
+      "name": "海外思维LP群发消息明细_无24h回复率",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外思维LP群发消息明细_无24h回复率",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b9019855b402916ad7",
+      "alias": "海外益智群发消息明细（用户维度）",
+      "name": "海外益智群发消息明细（用户维度）",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外益智群发消息明细（用户维度）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f01987a01c1aa03f2",
+      "alias": "海外益智群发消息明细（系统群发）",
+      "name": "海外益智群发消息明细（系统群发）",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外益智群发消息明细（系统群发）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b9019854e45ce1050c",
+      "alias": "海外益智群发消息汇总（用户维度）",
+      "name": "海外益智群发消息汇总（用户维度）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外益智群发消息汇总（用户维度）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f01987919356c37b5",
+      "alias": "海外益智群发消息汇总（系统群发）",
+      "name": "海外益智群发消息汇总（系统群发）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外益智群发消息汇总（系统群发）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019ba18b5b98268d",
+      "alias": "海外LP群发违规统计表",
+      "name": "海外LP群发违规统计表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外LP群发违规统计表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b8f918f91e2fa019ba19c4a2d50a5",
+      "alias": "海外LP群发违规明细",
+      "name": "海外LP群发违规明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/群发/海外LP群发违规明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c8019375e98bea20d9",
+      "alias": "海外思维服务SOP执行情况",
+      "name": "海外思维服务SOP执行情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/语义分析_服务/海外思维服务SOP执行情况",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019aed96d93554bd",
+      "alias": "海外思维服务SOP执行情况_周维度",
+      "name": "海外思维服务SOP执行情况_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/语义分析_服务/海外思维服务SOP执行情况_周维度",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c8019376725653565a",
+      "alias": "海外思维服务SOP执行明细",
+      "name": "海外思维服务SOP执行明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/语义分析_服务/海外思维服务SOP执行明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701982e602e608c010198509c9709746b",
+      "alias": "非池内学员月度跟进",
+      "name": "非池内学员续费监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/跟进/非池内学员月度跟进",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b9019854de59f87776",
+      "alias": "非池内学员月度跟进_明细",
+      "name": "非池内学员月度跟进_明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/跟进/非池内学员月度跟进_明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a64311aff149f",
+      "alias": "海外思维学管服务指标明细",
+      "name": "海外思维学管服务指标明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/首课/海外思维学管服务指标明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189f6f1f6f10d05018a64543b1960d0",
+      "alias": "海外思维学管服务指标统计表",
+      "name": "海外思维学管服务指标统计表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/首课/海外思维学管服务指标统计表",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701896211621123220189ba98c0360e32",
+      "alias": "M0管理_益智海外新生首通监控",
+      "name": "M0管理_益智海外新生首通监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/首通/M0管理_益智海外新生首通监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018722bf22bf7d4d0187fab644085c82",
+      "alias": "思维新生分配跟进明细",
+      "name": "思维新生分配跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/首通/思维新生分配跟进明细",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018722bf22bf7d4d0187ff868fab30da",
+      "alias": "益智海外新生首通监控",
+      "name": "益智海外新生首通监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/首通/益智海外新生首通监控",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d8f2351381cd3",
+      "alias": "AI学情助手完成情况汇总（验收中）",
+      "name": "AI学情助手完成情况汇总",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/AI学情/AI学情助手完成情况汇总（验收中）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d8f2462621fdb",
+      "alias": "AI学情助手完成情况明细（验收中）",
+      "name": "AI学情助手完成情况明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/AI学情/AI学情助手完成情况明细（验收中）",
+      "depth": 5,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bb39eb39e66a6019bb6cb21240c22",
+      "alias": "LP业务指标盘点",
+      "name": "LP业务指标盘点",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/业绩盘点/LP业务指标盘点",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199e755ced96a80",
+      "alias": "益智海外LP_TL盘点_新",
+      "name": "益智海外LP_TL盘点",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/业绩盘点/益智海外LP_TL盘点_新",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f019888750c6113cf",
+      "alias": "学员流转跟进监控明细",
+      "name": "学员流转跟进监控明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/学员流转跟进监控明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f019897fda2a85c75",
+      "alias": "学员流转跟进监控汇总表",
+      "name": "学员流转跟进监控汇总表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/学员流转跟进监控汇总表",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f670194133021042a84",
+      "alias": "思维学员明细（学员维度）",
+      "name": "思维学员明细（学员维度）",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/思维学员明细（学员维度）",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018925863a5363da",
+      "alias": "思维海外学员数变化",
+      "name": "思维海外学员数变化",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/思维海外学员数变化",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b901985e873d737371",
+      "alias": "海外学员LP&AT离散情况",
+      "name": "海外学员LP&老师映射关系",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/海外学员LP&AT离散情况",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701982e602e608c01019840946e275675",
+      "alias": "海外待分配LP学员明细",
+      "name": "海外待分配LP学员明细",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/海外待分配LP学员明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019b55c655c6f62a019b698c49cf14d1",
+      "alias": "海外益智学员积分发放明细",
+      "name": "海外益智学员积分发放明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/学员相关/海外益智学员积分发放明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab8278101993c76cfa1303e",
+      "alias": "学员学情及服务指标情况汇总",
+      "name": "学员服务指标情况汇总",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/课消相关/学员学情及服务指标情况汇总",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f0198889e7cc27654",
+      "alias": "海外思维学员上课明细",
+      "name": "海外思维学员上课明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/课消相关/海外思维学员上课明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195ed98ed984d04019602449de803c2",
+      "alias": "海外教学&学管协作池跟进",
+      "name": "海外教学&学管协作池跟进",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/海外教学&学管协作池跟进",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019956c056c0048101995c4632117990",
+      "alias": "教学&学管协作跟进明细",
+      "name": "教学&学管协作跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/教学&学管协作跟进明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab8278101994c1660456cf2",
+      "alias": "LP&主讲升舱协作明细",
+      "name": "LP&主讲升舱协作明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/LP&主讲升舱协作明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199fc088f647e08",
+      "alias": "LP&主讲升舱协作明细-教师端",
+      "name": "LP&主讲升舱协作明细-教师端",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/LP&主讲升舱协作明细-教师端",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab8278101993a1c90f6448c",
+      "alias": "LP&主讲升舱协作监控",
+      "name": "LP&主讲升舱协作监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/LP&主讲升舱协作监控",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a4b1c4b1c4843019a58900fd928eb",
+      "alias": "全量学员学情情况分层",
+      "name": "各节点未续学员学情情况",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/全量学员学情情况分层",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199baeabaea35bb0199d14379526743",
+      "alias": "思维LP组班意向提交播报",
+      "name": "后端海外思维组班意向提交播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/思维LP组班意向提交播报",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bbc0bbc0bf6dd019bd53c865650f6",
+      "alias": "思维LP群聊监控明细",
+      "name": "思维LP群聊监控明细-2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/思维LP群聊监控明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018d30a91ebf6996",
+      "alias": "思维微信聊天明细V2",
+      "name": "思维微信聊天明细V2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/思维微信聊天明细V2",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c3dc2a18b4510",
+      "alias": "思维课时拆分明细",
+      "name": "思维课时拆分明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/思维课时拆分明细",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701896211621123220189780e7c854fc7",
+      "alias": "海外思维LP架构表",
+      "name": "海外思维LP架构表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/海外思维LP架构表",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019dac48ac48ab76019dcdccf05b4b0f",
+      "alias": "班级快照信息表-临时",
+      "name": "班级快照信息表-临时",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外后端/思维-后端/其他/班级快照信息表-临时",
+      "depth": 4,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab827810199379d428f1760",
+      "alias": "后端海外思维学员组班意向池开班数据汇总",
+      "name": "海外思维学员组班意向池开班数据汇总",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/后端海外思维学员组班意向池开班数据汇总",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab827810199385db8b25206",
+      "alias": "后端海外思维组班意向池开班数据_明细",
+      "name": "海外思维组班意向池开班数据_明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/后端海外思维组班意向池开班数据_明细",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018944ef72f55848",
+      "alias": "思维海外满班率",
+      "name": "思维海外满班率",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/思维海外满班率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e501894ee41c4c7433",
+      "alias": "思维海外满班率--分时刻",
+      "name": "思维海外满班率--分时刻",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/思维海外满班率--分时刻",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018281318131aec70182918b92130d7e",
+      "alias": "海外思维排班数据",
+      "name": "海外思维排班数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/海外思维排班数据",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018c9ffc8a203437",
+      "alias": "海外教务管理看板V2",
+      "name": "海外教务管理看板V2_验收中",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/海外教务管理看板V2",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018281318131aec70182b3d70b400f0a",
+      "alias": "海外未分班学员明细",
+      "name": "海外未分班学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/海外未分班学员明细",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018bfbb5fa7d3a2a",
+      "alias": "益智排班链路学员明细",
+      "name": "益智排班链路学员明细（验收中）",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/益智排班链路学员明细",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198c5ff586967fa",
+      "alias": "益智海外上课行为宽表",
+      "name": "益智海外上课行为宽表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/益智海外上课行为宽表",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a86167301989c63c9ae0c29",
+      "alias": "益智海外正课学员明细",
+      "name": "益智海外正课学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/益智海外正课学员明细",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018943af60461dec",
+      "alias": "益智海外班级学员明细",
+      "name": "益智班级学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/益智海外班级学员明细",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870188bd83bd8316e5018943b0ea5d208f",
+      "alias": "益智海外班级明细表",
+      "name": "益智班级明细表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外教务/益智海外班级明细表",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401916fe3e7ff339e",
+      "alias": "投放全链路目标达成数据",
+      "name": "投放全链路目标达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放全链路目标达成数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019956c056c004810199702baaa750ed",
+      "alias": "投放分渠道目标达成",
+      "name": "投放分渠道目标达成",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放分渠道目标达成",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018639193919a11701867382f8072711",
+      "alias": "投放全链路指标--区域细分_末次",
+      "name": "投放全链路指标--国家维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放全链路指标--区域细分_末次",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018639193919a11701866e035788665d",
+      "alias": "投放全链路指标--区域等级_末次",
+      "name": "投放全链路指标--城市维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放全链路指标--区域等级_末次",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087017d08d708d7301b017dbcd8b3060637",
+      "alias": "海外投放全链路数据--日例子成本_末次",
+      "name": "海外投放全链路数据--日例子成本V1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/海外投放全链路数据--日例子成本_末次",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc901945ed4779140b2",
+      "alias": "投放日播报",
+      "name": "投放日播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放日播报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195154d154d33720195180019a5150c",
+      "alias": "投放FB链路指标--素材维度",
+      "name": "投放全链路指标--素材维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放FB链路指标--素材维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019cf80af80a169e019cf99fa0317421",
+      "alias": "投放小红书链路指标-素材维度",
+      "name": "投放小红书链路指标-素材维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放小红书链路指标-素材维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c43d043d07982019c56825d8a6fb3",
+      "alias": "投放渠道转化漏斗达成_周维度",
+      "name": "投放渠道转化漏斗达成_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放渠道转化漏斗达成_周维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d90ac8d28184a",
+      "alias": "投放渠道转化漏斗累计达成_周维度",
+      "name": "投放渠道转化漏斗累计达成_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放渠道转化漏斗累计达成_周维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c1fbe1fbefe98019c2cefdea27ab9",
+      "alias": "海外投放FB渠道日监控",
+      "name": "海外投放FB渠道日监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/海外投放FB渠道日监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bd7a5d7a5f36d019bda07261d1088",
+      "alias": "海外投放广告空耗监控",
+      "name": "海外投放广告空耗监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/海外投放广告空耗监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019cf80af80a169e019cfec062a76757",
+      "alias": "海外投放新老计划空耗监控",
+      "name": "海外投放新老计划空耗监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/海外投放新老计划空耗监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d6430643089cc019d7167b0e30c39",
+      "alias": "投放FB链路类型日监控",
+      "name": "投放FB链路类型日监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放FB链路类型日监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019581728172bf1e01958a738cf76320",
+      "alias": "FB港澳-非港澳测试报表",
+      "name": "FB港澳-非港澳测试报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/FB港澳-非港澳测试报表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018639193919a11701866e63be137eeb",
+      "alias": "投放全链路指标--谷歌资源位维度",
+      "name": "投放全链路指标--资源位维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放全链路指标--谷歌资源位维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019611a411a4ce67019633bee6be3986",
+      "alias": "谷歌渠道测试报表",
+      "name": "谷歌渠道数据监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/谷歌渠道测试报表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019388c388c3881301939b2301905a8d",
+      "alias": "台湾播报",
+      "name": "投放全链路指标-台湾播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/台湾播报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019635b135b1530d01964f1077197da8",
+      "alias": "投放全链路目标达成数据-跨月",
+      "name": "投放全链路目标达成数据-跨月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放全链路目标达成数据-跨月",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701994ec44ec4adf40199506612f806b2",
+      "alias": "投放广点通链路指标--素材维度（开发中）",
+      "name": "投放全链路指标--素材维度-1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放广点通链路指标--素材维度（开发中）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019e3c7a3c7aba9e019e4a36a6a3400a",
+      "alias": "投放广点通&抖音链路指标-账户维度（验收中）",
+      "name": "投放广点通&抖音链路指标-账户维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/投放广点通&抖音链路指标-账户维度（验收中）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870186daa1daa1ae620186e996fc1b4931",
+      "alias": "平台落地页全链路报表V2",
+      "name": "平台落地页全链路报表V2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/页面监控数据/平台落地页全链路报表V2",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870189621162112322018967f6e95502cd",
+      "alias": "平台落地页全链路报表V3",
+      "name": "平台落地页全链路报表V3（验收中）",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/页面监控数据/平台落地页全链路报表V3",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870180419841986eaa0180b7d1f35024a2",
+      "alias": "海外投放落地页全链路报表",
+      "name": "海外投放落地页全链路报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/页面监控数据/海外投放落地页全链路报表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a0303030340a3019a063bd3701c88",
+      "alias": "投放APP转化漏斗",
+      "name": "投放APP转化漏斗",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外投放/页面监控数据/投放APP转化漏斗",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901903bd1fe3e2098",
+      "alias": "海外商务_各渠道主辅投数据",
+      "name": "海外商务_各渠道主辅投数据_V2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务_各渠道主辅投数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a270f270fc290019a2ddd49b86b71",
+      "alias": "海外商务_各渠道主辅投数据_跨月",
+      "name": "海外商务_各渠道主辅投数据_跨月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务_各渠道主辅投数据_跨月",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870196c5e3c5e364d30196cda2ebf2346f",
+      "alias": "海外商务_各渠道主辅投数据_负责人",
+      "name": "海外商务_各渠道主辅投数据_负责人",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务_各渠道主辅投数据_负责人",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870197e647e64783670198078a713f1d44",
+      "alias": "海外商务_合伙代理人主辅投数据_负责人",
+      "name": "海外商务_合伙代理人主辅投数据_负责人",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务_合伙代理人主辅投数据_负责人",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019091f591f515fa0190fd531f1674c2",
+      "alias": "海外商务-链路达成数据",
+      "name": "海外商务-链路达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务-链路达成数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019972d172d12ff50199952c76975bb6",
+      "alias": "海外商务-链路达成数据-跨月",
+      "name": "海外商务-链路达成数据-跨月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务-链路达成数据-跨月",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192f892f89262770192fb6799811407",
+      "alias": "海外商务-日例子GMV",
+      "name": "海外商务-日例子GMV",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务-日例子GMV",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018b856387dc317d",
+      "alias": "商务落地页数据监控_末次",
+      "name": "商务落地页数据监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/商务落地页数据监控_末次",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018d40264026d2d2018dd02be8e86eb4",
+      "alias": "商务_各渠道主辅投数据_首触",
+      "name": "商务_各渠道主辅投数据_V2",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/商务_各渠道主辅投数据_首触",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193acd0acd00a880193becd46f979b9",
+      "alias": "海外商务关键指标-月维度（开发中）",
+      "name": "海外商务关键指标-月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务关键指标-月维度（开发中）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701992ab82ab82781019933bce8ec068d",
+      "alias": "海外商务员工企微监控",
+      "name": "海外商务员工企微监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/海外商务员工企微监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019444dd44dd5dc9019449c7b9fa36c0",
+      "alias": "销售明细_商务专用",
+      "name": "销售明细_商务专用",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/非港澳商务/销售明细_商务专用",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018fe63be63b798301902b2d96c12492",
+      "alias": "海外港澳商务_各渠道主辅投数据",
+      "name": "海外香港商务_各渠道主辅投数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/海外港澳商务_各渠道主辅投数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701931c9d1c9dfda301932480c2813b84",
+      "alias": "港澳商务-链路达成数据",
+      "name": "港澳商务-链路达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-链路达成数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193d0dcd0dc8f480193f2ccf1127514",
+      "alias": "港澳商务成本指标_月维度",
+      "name": "港澳商务关键指标_月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务成本指标_月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870192f892f892627701930063197203b5",
+      "alias": "港澳商务-日例子GMV",
+      "name": "港澳商务-日例子GMV",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-日例子GMV",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b073d8c8152a0",
+      "alias": "港澳商务-线下HK商超播报",
+      "name": "港澳商务-线下HK商超播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-线下HK商超播报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b121695c85d0d",
+      "alias": "港澳商务-26年5月兒童書展",
+      "name": "港澳商务-25年12月兒童書展",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-26年5月兒童書展",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b1244186b30dc",
+      "alias": "港澳商务-26年5月课外活动展",
+      "name": "港澳商务-25年12月澳门圣诞购物展",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-26年5月课外活动展",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199e69edee366c4",
+      "alias": "港澳商务-26年4月澳门教育展",
+      "name": "港澳商务-25年10月创意文化展",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-26年4月澳门教育展",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870199def6def6bc9e0199e6d622896ccf",
+      "alias": "港澳商务-26年3月兒童書展",
+      "name": "港澳商务-25年10月兒童書展",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-26年3月兒童書展",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c1fbe1fbefe98019c2cfd84900fa7",
+      "alias": "港澳商务-26年2月BB展",
+      "name": "港澳商务-26年2月BB展",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/港澳商务-26年2月BB展",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019033b933b9918901906e3533624931",
+      "alias": "双科进线学员明细",
+      "name": "双科进线学员明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/双科进线学员明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019611a411a4ce67019633dd49ae7e21",
+      "alias": "KOL日流速",
+      "name": "KOL日流速报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/KOL日流速",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019aff5aff5adc5e019b10c559a43e78",
+      "alias": "海外港澳商务KOL成本监控_日维度",
+      "name": "海外港澳商务KOL成本监控_日维度v1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/海外港澳商务KOL成本监控_日维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195c98bc98bc8470195d393bea34085",
+      "alias": "海外港澳商务KOL转化漏斗_周月维度",
+      "name": "海外港澳商务KOL转化漏斗_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/港澳商务/海外港澳商务KOL转化漏斗_周月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870197e647e64783670197f5392252727e",
+      "alias": "海外台湾商务_各渠道主辅投数据",
+      "name": "海外台湾商务_各渠道主辅投数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/海外台湾商务_各渠道主辅投数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198526d526df9b901985ad697b4167e",
+      "alias": "台湾商务-链路达成数据",
+      "name": "台湾商务-链路达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾商务-链路达成数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a6201981698e07009ac",
+      "alias": "台湾商务-日例子GMV",
+      "name": "台湾商务-日例子GMV",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾商务-日例子GMV",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a62019816c463ef2851",
+      "alias": "台湾商务-KOL日流速",
+      "name": "台湾商务-KOL日流速报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾商务-KOL日流速",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198def1efa55b5d",
+      "alias": "台湾外渠达成_周维度",
+      "name": "台湾外渠达成_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾外渠达成_周维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198e29fe29f218e0198f4ba184b5a46",
+      "alias": "台湾外渠达成_月维度",
+      "name": "台湾外渠达成_月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾外渠达成_月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198767976798e4f019897af3eab5177",
+      "alias": "台湾外渠达成播报",
+      "name": "台湾外渠达成播报",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/台湾外渠达成播报",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c8be48be48889019c994e78263f7d",
+      "alias": "海外台湾商务KOL上线阶段监控",
+      "name": "海外台湾商务KOL上线阶段监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/海外台湾商务KOL上线阶段监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870197e647e64783670197f83354c938c8",
+      "alias": "海外台湾商务成本监控_日维度",
+      "name": "海外台湾商务KOL成本监控_日维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/海外台湾商务成本监控_日维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a62019816fec929055f",
+      "alias": "海外台湾商务转化漏斗_周月维度",
+      "name": "海外台湾商务KOL转化漏斗_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/台湾商务/海外台湾商务转化漏斗_周月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bfbb2fbb277bf019c044075b51202",
+      "alias": "益智CC跟进_新加坡",
+      "name": "益智CC跟进_新加坡",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/益智CC跟进_新加坡",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019ae87c146e02f0",
+      "alias": "新加坡KOL滚动转化漏斗_周月维度",
+      "name": "海外商务新加坡KOL转化漏斗_周月维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡KOL滚动转化漏斗_周月维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bfbb2fbb277bf019c0263a7bc6a56",
+      "alias": "新加坡累计转化漏斗_周维度",
+      "name": "新加坡转化漏斗_周维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡累计转化漏斗_周维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c04c404c4bd42019c08fd3ef548ef",
+      "alias": "海外Local商务_各渠道主辅投数据",
+      "name": "海外Local商务_各渠道主辅投数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/海外Local商务_各渠道主辅投数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c04c404c4bd42019c1d1bf49207c3",
+      "alias": "海外Local商务-链路达成数据",
+      "name": "海外Local商务-链路达成数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/海外Local商务-链路达成数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c04c404c4bd42019c0d7dc7d41b1d",
+      "alias": "新加坡漏斗达成情况-当月",
+      "name": "新加坡漏斗达成情况-当月",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡漏斗达成情况-当月",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019ab741b741d5be019ac4a996742320",
+      "alias": "新加坡KOL成本监控_日维度",
+      "name": "海外商务新加坡KOL成本监控_日维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡KOL成本监控_日维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019afd871c937fb5",
+      "alias": "新加坡KOL日流速",
+      "name": "新加坡KOL日流速",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡KOL日流速",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d6430643089cc019d7122f4667dca",
+      "alias": "新加坡课件&老师到课转化情况",
+      "name": "新加坡到课转化情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外商务/Local商务/新加坡课件&老师到课转化情况",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018c5727572747ed018cfc4fc4f13d00",
+      "alias": "益智拓美术播报数据",
+      "name": "益智拓美术编程播报数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/益智拓美术播报数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701896211621123220189cfb818fb7817",
+      "alias": "M0管理--海外益智拓美术播报数据",
+      "name": "海外益智拓美术播报数据-M0",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/M0管理--海外益智拓美术播报数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018355865586b2f901835a2169d70c67",
+      "alias": "思维拓美术CC跟进数据",
+      "name": "思维拓美术CC跟进数据",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/思维拓美术CC跟进数据",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870182ce98ce98eaa90182d41a6b3e02b0",
+      "alias": "拓科导流转化看板--思维",
+      "name": "拓科导流转化看板--思维",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/拓科导流转化看板--思维",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191fc70fc70c7bf01921de5fbd81e19",
+      "alias": "分批次_思维拓美术CC跟进报表",
+      "name": "分批次_思维拓美术CC跟进报表",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/分批次_思维拓美术CC跟进报表",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019611a411a4ce67019632fb21a227d7",
+      "alias": "思维拓美术一次二次进线情况",
+      "name": "思维拓美术一次二次进线情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/思维拓美术一次二次进线情况",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a94019145a7c74c1a85",
+      "alias": "思维拓美术学员在读明细V2",
+      "name": "思维拓美术学员在读明细V2",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/思维拓美术学员在读明细V2",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a94019159d69f2971a2",
+      "alias": "拓科CC&LP加v率监控",
+      "name": "拓科CC&LP加v率监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/拓科CC&LP加v率监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401916f20d8c06232",
+      "alias": "海外思维拓科执行监控",
+      "name": "海外思维拓科执行监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/海外思维拓科执行监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bd7a5d7a5f36d019bdf3d62780904",
+      "alias": "海外益智拓美术激励及绩效",
+      "name": "海外益智拓美术激励及绩效",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/海外益智拓美术激励及绩效",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401915a2d8aee7a15",
+      "alias": "益智LP导流画啦啦明细",
+      "name": "拓科CC&LP加v明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/益智LP导流画啦啦明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d6430643089cc019d70db116f7068",
+      "alias": "益智拓美术播报数据-小组维度",
+      "name": "益智拓美术播报数据-小组维度",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外拓科/思维拓科/益智拓美术播报数据-小组维度",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018de4d7e4d7f139018df301cdf33f3d",
+      "alias": "退费cohort",
+      "name": "退费cohortV1",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/退费cohort",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019462b562b5ce7401947247b11b5f32",
+      "alias": "海外益智退费明细",
+      "name": "海外益智退费明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/海外益智退费明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870193f856f856837a0193fdf075fe3475",
+      "alias": "益智新签退费GMV监控看板",
+      "name": "益智新签退费GMV监控看板",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智新签退费GMV监控看板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019400bc00bc8f6701940108bb2e2892",
+      "alias": "益智续费退费GMV监控看板",
+      "name": "益智续费退费GMV监控看板（开发中）",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智续费退费GMV监控看板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019462b562b5ce74019462cd5b4c35ba",
+      "alias": "益智退费率监控看板",
+      "name": "益智退费率看板",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智退费率监控看板",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019364b764b704c801937387db8b1e09",
+      "alias": "益智续费退费语义分析",
+      "name": "续费退费语义分析",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智续费退费语义分析",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019c1fbe1fbefe98019c27915ff27a92",
+      "alias": "M0-益智LP退费申请前跟进监控",
+      "name": "M0-益智LP退费申请前跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/M0-益智LP退费申请前跟进监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019581728172bf1e0195939bceb368fe",
+      "alias": "海外益智三端口退费跟进监控",
+      "name": "海外益智退费跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/海外益智三端口退费跟进监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019539593959ba9e01953c3d59d960ca",
+      "alias": "益智LP退费申请前跟进监控",
+      "name": "益智LP退费申请前跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智LP退费申请前跟进监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019581728172bf1e0195839143601802",
+      "alias": "益智LP退费申请跟进明细",
+      "name": "益智LP退费申请跟进明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智LP退费申请跟进明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870195154d154d33720195282bee94125e",
+      "alias": "益智续费退费语义分析明细",
+      "name": "益智续费退费语义分析明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/益智续费退费语义分析明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d883c883c25de019d952578314726",
+      "alias": "验收中-海外益智退费明细-（临时取数）",
+      "name": "海外益智退费明细-临时取数",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/验收中-海外益智退费明细-（临时取数）",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019e186e186e355a019e1f4d0dd95019",
+      "alias": "专项小组退费申请前跟进监控",
+      "name": "专项小组退费申请前跟进监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外退费/思维_退费/专项小组退费申请前跟进监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701977a217a21f809019785f3deca42cb",
+      "alias": "益智外呼质量监控",
+      "name": "海外外呼质量监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/益智外呼质量监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bd7a5d7a5f36d019bdb5b401d56bc",
+      "alias": "益智外呼质量监控_偏移值",
+      "name": "海外外呼质量监控_员工相对偏移值",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/益智外呼质量监控_偏移值",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701989a869a8616730198a691d3a0244d",
+      "alias": "益智外呼质量日监控",
+      "name": "益智外呼质量日监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/益智外呼质量日监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198e093e4197322",
+      "alias": "益智外呼分时段监控",
+      "name": "益智外呼分时段监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/益智外呼分时段监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019906ab06aba46a01990974324b6a3c",
+      "alias": "外呼号码生命周期监控",
+      "name": "外呼号码生命周期监控",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/外呼号码生命周期监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019a0303030340a3019a0b6123e11b8b",
+      "alias": "外呼号码生命周期监控-透视",
+      "name": "外呼号码生命周期监控-透视测试版",
+      "type": "INSIGHT",
+      "path": "分析报表/海外直播业务线/海外产运/外呼/外呼号码生命周期监控-透视",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019bd7a5d7a5f36d019bdfb3c8141151",
+      "alias": "海外益智AFTEE订单明细",
+      "name": "海外益智AFTEE订单明细",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/支付/海外益智AFTEE订单明细",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870198be92be929e460198d0d007bc5d62",
+      "alias": "海外支付方式分布",
+      "name": "海外支付方式分布",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/支付/海外支付方式分布",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019adb4fdb4f4130019ade7ade45241b",
+      "alias": "海外益智支付链路监控",
+      "name": "海外益智支付链路监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/支付/海外益智支付链路监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019caff1aff10b53019cbbd77bca1bc2",
+      "alias": "海外益智AFTEE个人退费情况",
+      "name": "海外益智AFTEE个人退费情况",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/海外直播业务线/海外产运/支付/海外益智AFTEE个人退费情况",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018639193919a1170186927a80625835",
+      "alias": "平台外呼看板",
+      "name": "平台外呼看板",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/平台外呼看板",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701847525752532cf018557ad5aa54a4c",
+      "alias": "号码呼出接通率",
+      "name": "号码呼出接通率报表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/号码呼出接通率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701847525752532cf01854d9af5286bac",
+      "alias": "员工呼出接通率",
+      "name": "员工呼出接通率报表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/员工呼出接通率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a6201981748d40213cc",
+      "alias": "国内外呼TOP16城市每日接通率",
+      "name": "国内主要城市每日接通率",
+      "type": "INSIGHT",
+      "path": "分析报表/平台业务线/外呼业务/国内外呼TOP16城市每日接通率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701847525752532cf01855d4472c96a2f",
+      "alias": "国内城市呼出接通率",
+      "name": "国内城市呼出接通率报表",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/国内城市呼出接通率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870186daa1daa1ae6201870e6735912bae",
+      "alias": "海外国家与地区呼出接通率",
+      "name": "海外国家接通情况",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/海外国家与地区呼出接通率",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701910cab0cabaea50191316b65040855",
+      "alias": "国内核心城市所需号码量监控",
+      "name": "国内核心城市所需号码量监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/国内核心城市所需号码量监控",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a9401914f74ed24136f",
+      "alias": "启用中国内号码使用情况",
+      "name": "启用中国内号码使用情况",
+      "type": "SIMPLE_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/启用中国内号码使用情况",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c9280870191447f447f3a94019159f631ae2c2f",
+      "alias": "不同线路城市接通率_拨打次序维度",
+      "name": "不同线路城市接通率_拨打次序维度",
+      "type": "INSIGHT",
+      "path": "分析报表/平台业务线/外呼业务/不同线路城市接通率_拨打次序维度",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018b64c8516644d6",
+      "alias": "需录入供应商号码清单",
+      "name": "需录入供应商号码清单",
+      "type": "INSIGHT",
+      "path": "分析报表/平台业务线/外呼业务/需录入供应商号码清单",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c92808701980a540a540a620198164a9b824996",
+      "alias": "外呼统计_区分线路城市",
+      "name": "外呼统计_区分线路城市",
+      "type": "INSIGHT",
+      "path": "分析报表/平台业务线/外呼业务/外呼统计_区分线路城市",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019d6430643089cc019d6ff4453c09eb",
+      "alias": "外呼明细_排查可用",
+      "name": "外呼明细_排查可用",
+      "type": "INSIGHT",
+      "path": "分析报表/平台业务线/外呼业务/外呼明细_排查可用",
+      "depth": 2,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c244e91187a0e",
+      "alias": "近三周国内重点城市外呼监控",
+      "name": "近三周国内城市外呼监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/推送播报/近三周国内重点城市外呼监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087018b5acd5acd0fdc018c245c3a5816b8",
+      "alias": "近三周部门外呼监控",
+      "name": "近三周部门外呼监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/推送播报/近三周部门外呼监控",
+      "depth": 3,
+      "has_child": false
+    },
+    {
+      "id": "I2c928087019996dd96ddb6ca0199986e3255670f",
+      "alias": "平台外呼异常号码明细监控",
+      "name": "平台外呼异常号码明细监控",
+      "type": "SPREADSHEET_REPORT",
+      "path": "分析报表/平台业务线/外呼业务/平台外呼异常号码明细监控",
+      "depth": 2,
+      "has_child": false
+    }
+  ],
+  "errors": [],
+  "profile_join": {
+    "status": "ok",
+    "profiles_total": 619,
+    "matched_total": 412,
+    "matched_by_path": 412,
+    "matched_by_alias": 0,
+    "unmatched_total": 207,
+    "ambiguous_total": 0,
+    "match_rate": 0.6656,
+    "examples": [
+      {
+        "profile_name": "AI学情助手完成情况明细（验收中）",
+        "profile_path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/AI学情/AI学情助手完成情况明细（验收中）",
+        "report_id": "I2c928087019d883c883c25de019d8f2462621fdb",
+        "registry_type": "SIMPLE_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "AI学情助手完成情况汇总（验收中）",
+        "profile_path": "分析报表/海外直播业务线/海外后端/思维-后端/服务/AI学情/AI学情助手完成情况汇总（验收中）",
+        "report_id": "I2c928087019d883c883c25de019d8f2351381cd3",
+        "registry_type": "SIMPLE_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "CC月底改约查询-思维",
+        "profile_path": "分析报表/海外直播业务线/海外前端/TMK/执行监控/CC月底改约查询-思维",
+        "report_id": "I2c928087018de4d7e4d7f139018ea1e0920e72dc",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "Demo课分语种分阶段不同时段满班率",
+        "profile_path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课分语种分阶段不同时段满班率",
+        "report_id": "I2c928087018c5727572747ed018ce2a5b4bc29f5",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "Demo课分课件不同时段满班率",
+        "profile_path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课分课件不同时段满班率",
+        "report_id": "I2c9280870191c79ac79ac0660191cf8645a765f8",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "Demo课各时段学员／班量分布",
+        "profile_path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课各时段学员／班量分布",
+        "report_id": "I2c928087018b5acd5acd0fdc018bd1e6d36226b7",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "Demo课繁体课件占比及转化",
+        "profile_path": "分析报表/海外直播业务线/海外前端/益智_海外前端/demo课/Demo课繁体课件占比及转化",
+        "report_id": "I2c9280870194851b851b23ff019487e67e266d0e",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "FB港澳-非港澳测试报表",
+        "profile_path": "分析报表/海外直播业务线/海外投放/投放主辅投数据/FB港澳-非港澳测试报表",
+        "report_id": "I2c928087019581728172bf1e01958a738cf76320",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "KOC信息维护表_v1",
+        "profile_path": "分析报表/海外直播业务线/填报/海外转介绍填报录入/分销&KOC/KOC信息维护表_v1",
+        "report_id": "I2c928087017e6c4a6c4aa8ce017ed85e14ea2cd1",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "KOL日流速",
+        "profile_path": "分析报表/海外直播业务线/海外商务/港澳商务/KOL日流速",
+        "report_id": "I2c928087019611a411a4ce67019633dd49ae7e21",
+        "registry_type": "SPREADSHEET_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "LP&主讲升舱协作明细",
+        "profile_path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/LP&主讲升舱协作明细",
+        "report_id": "I2c92808701992ab82ab8278101994c1660456cf2",
+        "registry_type": "SIMPLE_REPORT",
+        "match_type": "path"
+      },
+      {
+        "profile_name": "LP&主讲升舱协作明细-教师端",
+        "profile_path": "分析报表/海外直播业务线/海外后端/思维-后端/LP&主讲协作/LP&主讲升舱协作明细-教师端",
+        "report_id": "I2c9280870199def6def6bc9e0199fc088f647e08",
+        "registry_type": "SIMPLE_REPORT",
+        "match_type": "path"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "name": "202小组企微内容质检试跑",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/202小组企微内容质检试跑"
+      },
+      {
+        "name": "AI监课课节_细分值",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/AI监课课节_细分值"
+      },
+      {
+        "name": "AI质检明细",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/AI质检明细"
+      },
+      {
+        "name": "Demo上课学员与老师匹配度",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/教务协同/Demo上课学员与老师匹配度"
+      },
+      {
+        "name": "Demo台湾学员转率",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/海外Demo/Demo台湾学员转率"
+      },
+      {
+        "name": "Demo国内团队国内学员课件维度转率",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/国内Demo/Demo国内团队国内学员课件维度转率"
+      },
+      {
+        "name": "Demo国内学员各老师实际班型转率",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/国内Demo/Demo国内学员各老师实际班型转率"
+      },
+      {
+        "name": "Demo班型占比-约课端",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/班均监控/Demo班型占比-约课端"
+      },
+      {
+        "name": "Demo看板",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/Demo看板"
+      },
+      {
+        "name": "LP联动明细",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/LP联动明细"
+      },
+      {
+        "name": "LP联动汇总",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/LP联动汇总"
+      },
+      {
+        "name": "S1S2家长会新旧课件",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/指定项目/S1S2家长会新旧课件"
+      },
+      {
+        "name": "S3讲次学情数据",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/S3讲次学情数据"
+      },
+      {
+        "name": "S4家长会新旧课件",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/指定项目/S4家长会新旧课件"
+      },
+      {
+        "name": "S5定级测评答题明细",
+        "path": "分析报表/海外直播业务线/海外学科/正课/学科测评/S5定级测评答题明细"
+      },
+      {
+        "name": "S6家长会新旧课件ABtest",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/指定项目/S6家长会新旧课件ABtest"
+      },
+      {
+        "name": "S9流入流出归因",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/S9流入流出归因"
+      },
+      {
+        "name": "SOP服务支撑明细",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/SOP服务支撑明细"
+      },
+      {
+        "name": "T+n转率-国内学员整体情况",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/国内Demo/T+n转率-国内学员整体情况"
+      },
+      {
+        "name": "demo转率播报",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/demo播报/demo转率播报"
+      },
+      {
+        "name": "【益智】排课成功明细",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/教务排课/【益智】排课成功明细"
+      },
+      {
+        "name": "一单续费率-老师维度",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/老师维度数据/一单续费率-老师维度"
+      },
+      {
+        "name": "专项小组退费申请前跟进监控（验收中）",
+        "path": "分析报表/海外直播业务线/海外退费/思维_退费/专项小组退费申请前跟进监控（验收中）"
+      },
+      {
+        "name": "业绩达成",
+        "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/业绩达成"
+      },
+      {
+        "name": "产能数据核对（实时）",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/产能/产能数据核对（实时）"
+      },
+      {
+        "name": "代课数据V1",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/代课数据V1"
+      },
+      {
+        "name": "代课课节明细",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/代课课节明细"
+      },
+      {
+        "name": "出勤-三率（教师维度）",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/出勤-三率（教师维度）"
+      },
+      {
+        "name": "国内Demo",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/Demo/Demo机器人播报/国内Demo"
+      },
+      {
+        "name": "国内SOP关键词质检_老师维度（试跑老师）",
+        "path": "分析报表/平台业务线/益智业务线/教学中心/数据运营专用/业务组专用/国内SOP关键词质检_老师维度（试跑老师）"
+      }
+    ],
+    "ambiguous_examples": []
+  }
+}
