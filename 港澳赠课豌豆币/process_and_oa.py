@@ -1,16 +1,22 @@
 """
 港澳渠道成交例子赠课豌豆币发放
+Step 0: 自动下载销售明细（SmartBI）
 Step 1: 处理销售明细 → 生成豌豆币发放表格
 Step 2: 登录 OA 系统 → 填写豌豆币申请表单 → 暂存草稿
 """
 import os
 import sys
+import glob
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
 
 sys.stdout.reconfigure(encoding="utf-8")
+
+# 导入周报脚本中的 SmartBI 辅助函数
+sys.path.insert(0, str(Path(__file__).parent.parent / "周报内容" / "utils"))
+from smartbi_helper import run_smartbi_browser_task, assert_smartbi_credentials
 
 SCRIPT_DIR = Path(__file__).parent
 SAMPLE_DIR = SCRIPT_DIR / "sample"
@@ -62,6 +68,47 @@ def get_last_week_range():
 def make_output_name():
     _, _, range_str = get_last_week_range()
     return f"26年{range_str}港澳商务渠道成交用户赠送4节课豌豆币"
+
+
+def step0_download_sales_detail() -> Path:
+    """自动下载销售明细（SmartBI）"""
+    SAMPLE_DIR.mkdir(exist_ok=True)
+
+    # 清理旧文件
+    old_patterns = [SAMPLE_DIR / "益智海外用户销售明细*.xlsx"]
+    for pattern in old_patterns:
+        for f in glob.glob(str(pattern)):
+            try:
+                Path(f).unlink()
+                print(f"  [清理] {Path(f).name}")
+            except:
+                pass
+
+    # 计算日期
+    last_monday, last_sunday, range_str = get_last_week_range()
+
+    print("[下载步骤] 销售明细（上周一-上周日数据）")
+
+    assert_smartbi_credentials()
+
+    # 定义过滤条件
+    filters = [
+        ("末次渠道时间开始", "2010-01-01", "2010-01-01"),
+        ("末次渠道时间结束", last_sunday.strftime('%Y-%m-%d'), last_sunday.strftime('%Y-%m-%d')),
+        ("渠道一级分类", "海外港澳商务", "海外港澳商务"),
+        ("首签开始时间", last_monday.strftime('%Y-%m-%d'), last_monday.strftime('%Y-%m-%d')),
+        ("首签结束时间", last_sunday.strftime('%Y-%m-%d'), last_sunday.strftime('%Y-%m-%d')),
+    ]
+
+    output_path = SALES_FILE
+    result = run_smartbi_browser_task(
+        report_id="I2c928087018de4d7e4d7f139018de8a92ab24ad1",
+        filters=filters,
+        output_path=output_path,
+    )
+
+    print(f"  [下载] 销售明细已保存: {output_path.name}")
+    return result
 
 
 def step1_build_table() -> Path:
@@ -333,6 +380,10 @@ def step2_submit_oa(excel_path: Path, total_coins: int, total_users: int):
 # ─── MAIN ───
 
 def main():
+    # Step 0: 自动下载销售明细
+    step0_download_sales_detail()
+
+    # Step 1: 生成豌豆币发放表格
     out_path = step1_build_table()
 
     # 计算 OA 表单需要的汇总数据
@@ -340,6 +391,7 @@ def main():
     total_coins = int(df[TEMPLATE_COLUMNS[2]].sum())
     total_users = len(df)
 
+    # Step 2: 提交 OA 表单
     step2_submit_oa(out_path, total_coins, total_users)
 
 
