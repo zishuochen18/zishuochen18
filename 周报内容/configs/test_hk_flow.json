@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "base_url": "https://bi.61info.cn/smartbi/vision",
+  "tasks": {
+    "hk_flow_test": {
+      "enabled": true,
+      "description": "港澳流速数据测试 - 截至昨天",
+      "report": {
+        "id": "I2c928087018fe63be63b798301902b2d96c12492",
+        "path": "海外直播业务线/海外商务/港澳商务/海外港澳商务_各渠道主辅投数据",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default"
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../港澳流速/sample"
+      }
+    }
+  }
+}

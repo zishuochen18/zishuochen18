@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "base_url": "https://bi.61info.cn/smartbi/vision",
+  "tasks": {
+    "bookfair_may_full": {
+      "enabled": true,
+      "description": "书展数据 - 5.1-5.31（5月完整月）",
+      "report": {
+        "id": "I2c928087018fe63be63b798301902b2d96c12492",
+        "path": "海外直播业务线/海外商务/港澳商务/海外港澳商务_各渠道主辅投数据",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "开始日期",
+            "value": "2026-05-01",
+            "displayValue": "2026-05-01"
+          },
+          {
+            "key": "快照日期",
+            "value": "2026-05-31",
+            "displayValue": "2026-05-31"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../书展数据复盘/sample"
+      }
+    },
+    "bookfair_may_to_now": {
+      "enabled": true,
+      "description": "书展数据 - 5.1-6.4（5月至今）",
+      "report": {
+        "id": "I2c928087018fe63be63b798301902b2d96c12492",
+        "path": "海外直播业务线/海外商务/港澳商务/海外港澳商务_各渠道主辅投数据",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "开始日期",
+            "value": "2026-05-01",
+            "displayValue": "2026-05-01"
+          },
+          {
+            "key": "快照日期",
+            "value": "2026-06-04",
+            "displayValue": "2026-06-04"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../书展数据复盘/sample"
+      }
+    }
+  }
+}

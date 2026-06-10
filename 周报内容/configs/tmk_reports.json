@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "base_url": "https://bi.61info.cn/smartbi/vision",
+  "tasks": {
+    "tmk_work_monitor": {
+      "enabled": true,
+      "description": "海外TMK做工监控 - KOLHK思维主投",
+      "report": {
+        "id": "I2c928087018de4d7e4d7f139018e186cc1eb79ca",
+        "path": "海外直播业务线/海外产运/TMK/执行监控/海外TMK做工监控",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "CC跟进二级渠道",
+            "value": "KOLHK-思维主投",
+            "displayValue": "KOLHK-思维主投"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../TMK周报/sample"
+      }
+    },
+    "tmk_unscheduled_monitor": {
+      "enabled": true,
+      "description": "海外TMK未邀约做工监控播报 - 海外港澳商务 KOLHK思维主投",
+      "report": {
+        "id": "I2c928087018de4d7e4d7f139018e2348e6db0598",
+        "path": "海外直播业务线/海外产运/TMK/执行监控/海外TMK未邀约做工监控播报",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "一级渠道",
+            "value": "海外港澳商务",
+            "displayValue": "海外港澳商务"
+          },
+          {
+            "key": "CC跟进二级渠道",
+            "value": "KOLHK-思维主投",
+            "displayValue": "KOLHK-思维主投"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../TMK周报/sample"
+      }
+    },
+    "tmk_dnd_summary": {
+      "enabled": true,
+      "description": "海外TMK做工勿扰情况汇总 - 海外港澳商务 KOLHK思维主投",
+      "report": {
+        "id": "I2c928087019956c056c0048101995c65cfb234e2",
+        "path": "海外直播业务线/海外产运/TMK/执行监控/海外TMK做工勿扰情况汇总",
+        "type": "SPREADSHEET_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "一级渠道",
+            "value": "海外港澳商务",
+            "displayValue": "海外港澳商务"
+          },
+          {
+            "key": "CC跟进二级渠道",
+            "value": "KOLHK-思维主投",
+            "displayValue": "KOLHK-思维主投"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../TMK周报/sample"
+      }
+    }
+  }
+}

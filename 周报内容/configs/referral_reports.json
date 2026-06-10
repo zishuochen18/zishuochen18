@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "base_url": "https://bi.61info.cn/smartbi/vision",
+  "tasks": {
+    "sales_detail_referral": {
+      "enabled": true,
+      "description": "益智海外用户销售明细_末次渠道 - 转介绍渠道",
+      "report": {
+        "id": "I2c928087018de4d7e4d7f139018de8a92ab24ad1",
+        "path": "分析报表/海外直播业务线/海外前端/益智_海外前端/转化漏斗/益智海外用户销售明细_末次渠道",
+        "type": "SIMPLE_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "末次渠道时间开始",
+            "value": "{{last_month_start}}",
+            "displayValue": "{{last_month_start}}"
+          },
+          {
+            "key": "末次渠道时间结束",
+            "value": "{{yesterday}}",
+            "displayValue": "{{yesterday}}"
+          },
+          {
+            "key": "渠道一级分类",
+            "value": "转介绍",
+            "displayValue": "转介绍"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../转介绍打卡内容/sample"
+      }
+    },
+    "student_带量_current": {
+      "enabled": false,
+      "manual": true,
+      "description": "海外正式课学员带量明细_末次渠道_新 - 本期（手工下载）",
+      "report": {
+        "id": "I2c928087019a727e727e35b1019a776750975c74",
+        "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/海外正式课学员带量明细_末次渠道_新",
+        "type": "SIMPLE_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "开始日期",
+            "value": "{{current_month_start}}",
+            "displayValue": "{{current_month_start}}"
+          },
+          {
+            "key": "结束日期",
+            "value": "{{yesterday}}",
+            "displayValue": "{{yesterday}}"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../转介绍打卡内容/sample"
+      }
+    },
+    "student_带量_last": {
+      "enabled": false,
+      "manual": true,
+      "description": "海外正式课学员带量明细_末次渠道_新 - 上期（手工下载）",
+      "report": {
+        "id": "I2c928087019a727e727e35b1019a776750975c74",
+        "path": "分析报表/海外直播业务线/海外后端/思维-后端/转介绍/转介绍明细/海外正式课学员带量明细_末次渠道_新",
+        "type": "SIMPLE_REPORT"
+      },
+      "filters": {
+        "mode": "default",
+        "overrides": [
+          {
+            "key": "开始日期",
+            "value": "{{last_month_start}}",
+            "displayValue": "{{last_month_start}}"
+          },
+          {
+            "key": "结束日期",
+            "value": "{{last_month_corresponding_day}}",
+            "displayValue": "{{last_month_corresponding_day}}"
+          }
+        ]
+      },
+      "output": {
+        "type": "file",
+        "dir": "../../转介绍打卡内容/sample"
+      }
+    }
+  }
+}
