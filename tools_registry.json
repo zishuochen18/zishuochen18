@@ -1,0 +1,44 @@
+{
+  "agent-settlement": {
+    "dir": "代理对账结算",
+    "entry": "process_settlement.py",
+    "freq": "monthly",
+    "args_template": ["{agent_name}", "{cps_rate}"],
+    "description": "代理对账结算（支持 RMB/HKD）"
+  },
+  "tmk-weekly": {
+    "dir": "周报内容/TMK周报",
+    "entry": "process_tmk.py",
+    "freq": "weekly",
+    "args_template": [],
+    "description": "TMK 周报生成"
+  },
+  "hk-mo-coin": {
+    "dir": "港澳赠课豌豆币",
+    "entry": "process_and_oa.py",
+    "freq": "weekly",
+    "args_template": [],
+    "description": "港澳渠道豌豆币 OA 申请"
+  },
+  "hk-mo-email": {
+    "dir": "港澳未分班",
+    "entry": "process_and_email.py",
+    "freq": "weekly",
+    "args_template": [],
+    "description": "港澳未分班学员邮件通知"
+  },
+  "crm-channel": {
+    "dir": ".",
+    "entry": "crm_create_channel.py",
+    "freq": "ondemand",
+    "args_template": [],
+    "description": "CRM 渠道创建（交互式）"
+  },
+  "crm-feishu": {
+    "dir": ".",
+    "entry": "feishu_bitable_worker.py",
+    "freq": "daemon",
+    "args_template": [],
+    "description": "CRM 飞书轮询 Worker"
+  }
+}
