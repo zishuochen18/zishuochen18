@@ -1,0 +1,96 @@
+APP打卡海报日维度更新 - 快速参考卡片
+=====================================
+
+🚀 快速开始
+-----------
+方式一：双击 start.bat
+方式二：python run_complete_flow.py
+方式三：python test_step5_to_8.py (仅 Step 5-9)
+
+
+📊 完整流程
+-----------
+Step 1-4：数据导出（需要手动登录 Sensors 一次）
+  ↓
+Step 5-9：海报更新（需要手动登录 BizCenter 一次）
+  - 海报组 1: siweidaka
+  - 海报组 2: tongyongzhouzhoudaka
+
+
+🎯 关键改进
+-----------
+✅ Step 8：改为逐个对话框模式（每个海报独立操作）
+✅ Step 8.5：新增验证步骤（必须全部通过才保存）
+✅ Step 6：支持多海报组参数
+
+
+⏱️ 执行时间
+-----------
+Step 1-4：15-20 分钟
+Step 5-9：30-40 分钟
+总计：50-60 分钟
+
+
+📁 关键文件
+-----------
+run_complete_flow.py ← 完整流程主脚本
+verify_setup.py      ← 环境验证
+start.bat            ← 快速启动
+
+output/
+  └── 海报裂变率排序_*.xlsx (Step 4 生成)
+
+
+🔧 配置修改
+-----------
+添加海报组：
+  编辑 run_complete_flow.py 中的 POSTER_GROUPS 列表
+
+修改分组名称：
+  编辑 poster_update.py 中的 GROUP_WRAPPER_SELECTOR
+
+
+✨ 特性
+------
+✓ 95%+ 自动化（仅 2 次手动登录）
+✓ 支持多个海报组
+✓ 完善的验证机制
+✓ 详细的日志输出
+✓ 安全的删除保护
+
+
+📝 文档
+------
+README_完整流程.md        - 详细使用指南
+IMPLEMENTATION_SUMMARY.md - 技术实现细节
+FINAL_SUMMARY.md          - 项目完成总结
+
+
+🆘 快速排查
+-----------
+问题：找不到文件
+→ 检查工作目录是否正确
+
+问题：导入错误
+→ 运行 python verify_setup.py 检查环境
+
+问题：网络连接失败
+→ 检查网络和目标网站是否可访问
+
+问题：Step 8.5 验证失败
+→ 检查浏览器中的海报数量，可能有海报没有添加
+
+
+📞 验证系统就绪
+-----------
+$ python verify_setup.py
+
+输出应该显示：
+[SUCCESS] 所有检查通过！系统已准备就绪
+
+
+🎉 准备就绪！
+-----------
+运行完整流程：python run_complete_flow.py
+或
+双击：start.bat
