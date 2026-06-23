@@ -1,0 +1,68 @@
+# === 敏感凭证（最高优先）===
+auth_state.json
+*_auth_state.json
+feishu_config.local.json
+gthvc.json
+*.token
+.env
+.env.local
+
+# === Python 通用 ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Excel 临时锁文件 ===
+~$*
+~$*.xlsx
+~$*.xls
+
+# === 中间产物：各模块输出 ===
+output/
+*/output/
+**/output/
+
+# === 中间产物：各模块 sample 数据 ===
+*/sample/*.xlsx
+*/sample/*.xls
+**/sample/*.xlsx
+**/sample/*.xls
+*/sample/run.json
+**/sample/run.json
+
+# === 运行时配置（脚本生成）===
+configs/_runtime/
+*_runtime.json
+*.runtime.json
+
+# === 日志 ===
+*.log
+*.txt.log
+周报生成.log
+周报运行日志.txt
+runs.log
+report_output.log
+publish_output.log
+final_log.txt
+generate_log.txt
+generate_full_log.txt
+
+# === 调试截图与图片 ===
+debug_*.png
+debug_screenshot.png
+*.jpg
+
+# === 压缩备份 ===
+*.rar
+*.zip
+
+# === 不上传的目录 ===
+男装图文生成/
+周报内容.rar/
+zhoubao/
+
+# === IDE / 系统 ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
